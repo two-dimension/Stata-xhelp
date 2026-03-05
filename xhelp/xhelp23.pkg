@@ -1,0 +1,74 @@
+v 3
+d xhelp -- Tools to create and display translated help files
+d 
+d -xhelp- is an extension to the official -help- command, which provides 
+d tools to edit original help files into translated version and display 
+d them (or the original one when translated version not found).
+d 
+d KW: workflow
+d KW: help system
+d 
+d Requires: Stata version 9
+d
+d Version: 0.1
+d Distribution-Date: 2022-06-20
+d 
+d Author:  Yongyi Zeng (Xiamen University, PRC)
+d Support: zzyy@xmu.edu.cn
+d 
+
+* comments, not be displayed.
+* f lines name the files that comprise your package.
+* F can force a default-not-installed file to be install to sysdir.
+* help net
+
+f f_word_zh.sthlp
+f f_w_zh.sthlp
+f f_yearly_zh.sthlp
+f f_year_zh.sthlp
+f f_yh_zh.sthlp
+f f_ym_zh.sthlp
+f f_yofd_zh.sthlp
+f f_yq_zh.sthlp
+f f_yw_zh.sthlp
+f f__caller_zh.sthlp
+f gdiagonal_zh.sthlp
+f generate_zh.sthlp
+f genrank_zh.sthlp
+f gettoken_zh.sthlp
+f gif_options_zh.sthlp
+f glm_postestimation_zh.sthlp
+f glm_zh.sthlp
+f glogit_postestimation_zh.sthlp
+f glogit_zh.sthlp
+f gmm_postestimation_zh.sthlp
+f gmm_zh.sthlp
+f gphdot_zh.sthlp
+f gphprint_zh.sthlp
+f gph_files_zh.sthlp
+f gph_zh.sthlp
+f gprefs_zh.sthlp
+f gr7axes_zh.sthlp
+f gr7bar_zh.sthlp
+f gr7box_zh.sthlp
+f gr7color_zh.sthlp
+f gr7hist_zh.sthlp
+f gr7matrix_zh.sthlp
+f gr7oneway_zh.sthlp
+f gr7other_zh.sthlp
+f gr7pie_zh.sthlp
+f gr7star_zh.sthlp
+f gr7sym_zh.sthlp
+f gr7twoway_zh.sthlp
+f graph7_zh.sthlp
+f graph_ascategory_zh.sthlp
+f graph_asyvars_zh.sthlp
+f graph_bar_zh.sthlp
+f graph_box_zh.sthlp
+f graph_bwidth_zh.sthlp
+f graph_close_zh.sthlp
+f graph_cmissing_zh.sthlp
+f graph_color_zh.sthlp
+f graph_combine_zh.sthlp
+f graph_copy_zh.sthlp
+f graph_describe_zh.sthlp

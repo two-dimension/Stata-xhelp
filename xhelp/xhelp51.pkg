@@ -1,0 +1,74 @@
+v 3
+d xhelp -- Tools to create and display translated help files
+d 
+d -xhelp- is an extension to the official -help- command, which provides 
+d tools to edit original help files into translated version and display 
+d them (or the original one when translated version not found).
+d 
+d KW: workflow
+d KW: help system
+d 
+d Requires: Stata version 9
+d
+d Version: 0.1
+d Distribution-Date: 2022-06-20
+d 
+d Author:  Yongyi Zeng (Xiamen University, PRC)
+d Support: zzyy@xmu.edu.cn
+d 
+
+* comments, not be displayed.
+* f lines name the files that comprise your package.
+* F can force a default-not-installed file to be install to sysdir.
+* help net
+
+f spivregress_postestimation_zh.sthlp
+f spivregress_zh.sthlp
+f splitsample_zh.sthlp
+f split_zh.sthlp
+f spmatrix_copy_zh.sthlp
+f spmatrix_create_zh.sthlp
+f spmatrix_drop_zh.sthlp
+f spmatrix_export_zh.sthlp
+f spmatrix_fromdata_zh.sthlp
+f spmatrix_import_zh.sthlp
+f spmatrix_matafromsp_zh.sthlp
+f spmatrix_normalize_zh.sthlp
+f spmatrix_note_zh.sthlp
+f spmatrix_save_zh.sthlp
+f spmatrix_spfrommata_zh.sthlp
+f spmatrix_summarize_zh.sthlp
+f spmatrix_userdefined_zh.sthlp
+f spmatrix_use_zh.sthlp
+f spmatrix_zh.sthlp
+f spregress_postestimation_zh.sthlp
+f spregress_zh.sthlp
+f spset_zh.sthlp
+f spshape2dta_zh.sthlp
+f spxtregress_postestimation_zh.sthlp
+f spxtregress_zh.sthlp
+f sp_glossary_zh.sthlp
+f sp_intro_zh.sthlp
+f sqrtlasso_zh.sthlp
+f ssc_zh.sthlp
+f ssd_zh.sthlp
+f sspace_postestimation_zh.sthlp
+f sspace_zh.sthlp
+f stack_zh.sthlp
+f stataic_zh.sthlp
+f statalist_zh.sthlp
+f statamp_zh.sthlp
+f statase_zh.sthlp
+f stata_press_zh.sthlp
+f stata_zh.sthlp
+f statsby_zh.sthlp
+f stbase_zh.sthlp
+f stb_zh.sthlp
+f stci_zh.sthlp
+f stcox_diagnostics_zh.sthlp
+f stcox_postestimation_zh.sthlp
+f stcox_zh.sthlp
+f stcrreg_postestimation_zh.sthlp
+f stcrreg_zh.sthlp
+f stcstat_zh.sthlp
+f stcurve_zh.sthlp

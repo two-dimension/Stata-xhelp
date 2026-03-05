@@ -1,0 +1,74 @@
+v 3
+d xhelp -- Tools to create and display translated help files
+d 
+d -xhelp- is an extension to the official -help- command, which provides 
+d tools to edit original help files into translated version and display 
+d them (or the original one when translated version not found).
+d 
+d KW: workflow
+d KW: help system
+d 
+d Requires: Stata version 9
+d
+d Version: 0.1
+d Distribution-Date: 2022-06-20
+d 
+d Author:  Yongyi Zeng (Xiamen University, PRC)
+d Support: zzyy@xmu.edu.cn
+d 
+
+* comments, not be displayed.
+* f lines name the files that comprise your package.
+* F can force a default-not-installed file to be install to sysdir.
+* help net
+
+f f_dgammapdx_zh.sthlp
+f f_dhms_zh.sthlp
+f f_diag0cnt_zh.sthlp
+f f_diag_zh.sthlp
+f f_digamma_zh.sthlp
+f f_dofb_zh.sthlp
+f f_dofc_zh.sthlp
+f f_dofh_zh.sthlp
+f f_dofm_zh.sthlp
+f f_dofq_zh.sthlp
+f f_dofw_zh.sthlp
+f f_dofy_zh.sthlp
+f f_dow_zh.sthlp
+f f_doy_zh.sthlp
+f f_dunnettprob_zh.sthlp
+f f_d_zh.sthlp
+f f_el_zh.sthlp
+f f_epsdouble_zh.sthlp
+f f_epsfloat_zh.sthlp
+f f_expm1_zh.sthlp
+f f_exponentialden_zh.sthlp
+f f_exponentialtail_zh.sthlp
+f f_exponential_zh.sthlp
+f f_exp_zh.sthlp
+f f_e_zh.sthlp
+f f_fden_zh.sthlp
+f f_fileexists_zh.sthlp
+f f_filereaderror_zh.sthlp
+f f_fileread_zh.sthlp
+f f_filewrite_zh.sthlp
+f f_float_zh.sthlp
+f f_floor_zh.sthlp
+f f_fmtwidth_zh.sthlp
+f f_frval_zh.sthlp
+f f_ftail_zh.sthlp
+f f_f_zh.sthlp
+f f_gammaden_zh.sthlp
+f f_gammaptail_zh.sthlp
+f f_gammap_zh.sthlp
+f f_get_zh.sthlp
+f f_hadamard_zh.sthlp
+f f_halfyearly_zh.sthlp
+f f_halfyear_zh.sthlp
+f f_has_eprop_zh.sthlp
+f f_hhc_zh.sthlp
+f f_hh_zh.sthlp
+f f_hms_zh.sthlp
+f f_hofd_zh.sthlp
+f f_hours_zh.sthlp
+f f_hypergeometricp_zh.sthlp

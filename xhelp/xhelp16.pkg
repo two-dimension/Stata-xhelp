@@ -1,0 +1,74 @@
+v 3
+d xhelp -- Tools to create and display translated help files
+d 
+d -xhelp- is an extension to the official -help- command, which provides 
+d tools to edit original help files into translated version and display 
+d them (or the original one when translated version not found).
+d 
+d KW: workflow
+d KW: help system
+d 
+d Requires: Stata version 9
+d
+d Version: 0.1
+d Distribution-Date: 2022-06-20
+d 
+d Author:  Yongyi Zeng (Xiamen University, PRC)
+d Support: zzyy@xmu.edu.cn
+d 
+
+* comments, not be displayed.
+* f lines name the files that comprise your package.
+* F can force a default-not-installed file to be install to sysdir.
+* help net
+
+f f_asinh_zh.sthlp
+f f_asin_zh.sthlp
+f f_atan2_zh.sthlp
+f f_atanh_zh.sthlp
+f f_atan_zh.sthlp
+f f_autocode_zh.sthlp
+f f_betaden_zh.sthlp
+f f_binomiallc_zh.sthlp
+f f_binomialp_zh.sthlp
+f f_binomialtail_zh.sthlp
+f f_binomial_zh.sthlp
+f f_binormal_zh.sthlp
+f f_bofd_zh.sthlp
+f f_byteorder_zh.sthlp
+f f_cauchyden_zh.sthlp
+f f_cauchytail_zh.sthlp
+f f_cauchy_zh.sthlp
+f f_cdhms_zh.sthlp
+f f_ceil_zh.sthlp
+f f_char_zh.sthlp
+f f_chi2den_zh.sthlp
+f f_chi2tail_zh.sthlp
+f f_chi2_zh.sthlp
+f f_chms_zh.sthlp
+f f_cholesky_zh.sthlp
+f f_chop_zh.sthlp
+f f_clip_zh.sthlp
+f f_clock_zh.sthlp
+f f_cloglog_zh.sthlp
+f f_cmdyhms_zh.sthlp
+f f_cofc_zh.sthlp
+f f_cofd_zh.sthlp
+f f_coleqnumb_zh.sthlp
+f f_collatorlocale_zh.sthlp
+f f_colnfreeparms_zh.sthlp
+f f_colnumb_zh.sthlp
+f f_colsof_zh.sthlp
+f f_comb_zh.sthlp
+f f_cond_zh.sthlp
+f f_corr_zh.sthlp
+f f_cosh_zh.sthlp
+f f_cos_zh.sthlp
+f f_c_zh.sthlp
+f f_date_zh.sthlp
+f f_day_zh.sthlp
+f f_det_zh.sthlp
+f f_dgammapdada_zh.sthlp
+f f_dgammapdadx_zh.sthlp
+f f_dgammapda_zh.sthlp
+f f_dgammapdxdx_zh.sthlp

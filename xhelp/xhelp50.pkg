@@ -1,0 +1,74 @@
+v 3
+d xhelp -- Tools to create and display translated help files
+d 
+d -xhelp- is an extension to the official -help- command, which provides 
+d tools to edit original help files into translated version and display 
+d them (or the original one when translated version not found).
+d 
+d KW: workflow
+d KW: help system
+d 
+d Requires: Stata version 9
+d
+d Version: 0.1
+d Distribution-Date: 2022-06-20
+d 
+d Author:  Yongyi Zeng (Xiamen University, PRC)
+d Support: zzyy@xmu.edu.cn
+d 
+
+* comments, not be displayed.
+* f lines name the files that comprise your package.
+* F can force a default-not-installed file to be install to sysdir.
+* help net
+
+f set_dots_zh.sthlp
+f set_emptycells_zh.sthlp
+f set_fvbase_zh.sthlp
+f set_fvtrack_zh.sthlp
+f set_graphics_zh.sthlp
+f set_insertmode_zh.sthlp
+f set_iter_zh.sthlp
+f set_locale_functions_zh.sthlp
+f set_locale_ui_zh.sthlp
+f set_prefix_zh.sthlp
+f set_printcolor_zh.sthlp
+f set_processors_zh.sthlp
+f set_rngstream_zh.sthlp
+f set_rng_zh.sthlp
+f set_scheme_zh.sthlp
+f set_seed_zh.sthlp
+f set_showbaselevels_zh.sthlp
+f set_varabbrev_zh.sthlp
+f set_virtual_zh.sthlp
+f set_zh.sthlp
+f sg__constraints_zh.sthlp
+f sg__initialvalues_zh.sthlp
+f sg__reliability_zh.sthlp
+f sg__tags_zh.sthlp
+f shadestyle_zh.sthlp
+f shell_zh.sthlp
+f signestimationsample_zh.sthlp
+f signrank_zh.sthlp
+f simulate_zh.sthlp
+f size_zh.sthlp
+f sj_zh.sthlp
+f sktest_zh.sthlp
+f sleep_zh.sthlp
+f slogit_postestimation_zh.sthlp
+f slogit_zh.sthlp
+f smalldlg_zh.sthlp
+f smcl_zh.sthlp
+f smoothfonts_zh.sthlp
+f smooth_zh.sthlp
+f snapshot_zh.sthlp
+f snapspan_zh.sthlp
+f sortpreserve_zh.sthlp
+f sortseed_zh.sthlp
+f sort_zh.sthlp
+f spbalance_zh.sthlp
+f spcompress_zh.sthlp
+f spdistance_zh.sthlp
+f spearman_zh.sthlp
+f spgenerate_zh.sthlp
+f spikeplot_zh.sthlp

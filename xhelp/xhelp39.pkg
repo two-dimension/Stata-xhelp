@@ -1,0 +1,74 @@
+v 3
+d xhelp -- Tools to create and display translated help files
+d 
+d -xhelp- is an extension to the official -help- command, which provides 
+d tools to edit original help files into translated version and display 
+d them (or the original one when translated version not found).
+d 
+d KW: workflow
+d KW: help system
+d 
+d Requires: Stata version 9
+d
+d Version: 0.1
+d Distribution-Date: 2022-06-20
+d 
+d Author:  Yongyi Zeng (Xiamen University, PRC)
+d Support: zzyy@xmu.edu.cn
+d 
+
+* comments, not be displayed.
+* f lines name the files that comprise your package.
+* F can force a default-not-installed file to be install to sysdir.
+* help net
+
+f mf_ustrtoname_zh.sthlp
+f mf_ustrto_zh.sthlp
+f mf_ustrtrim_zh.sthlp
+f mf_ustrunescape_zh.sthlp
+f mf_ustrupper_zh.sthlp
+f mf_ustrword_zh.sthlp
+f mf_usubinstr_zh.sthlp
+f mf_usubstr_zh.sthlp
+f mf_valofexternal_zh.sthlp
+f mf_vandermonde_zh.sthlp
+f mf_vech_lower_zh.sthlp
+f mf_vec_zh.sthlp
+f mf_xl_zh.sthlp
+f mf__diag_zh.sthlp
+f mf__docx_zh.sthlp
+f mf__equilrc_zh.sthlp
+f mf__factorsym_zh.sthlp
+f mf__fillmissing_zh.sthlp
+f mf__gauss_hermite_nodes_zh.sthlp
+f mf__lsfitqr_zh.sthlp
+f mf__negate_zh.sthlp
+f mf__parse_colon_zh.sthlp
+f mf__substr_zh.sthlp
+f mf__transpose_zh.sthlp
+f mf__usubstr_zh.sthlp
+f mf___lnmvnormalden_zh.sthlp
+f mgarch_ccc_postestimation_zh.sthlp
+f mgarch_ccc_zh.sthlp
+f mgarch_dcc_postestimation_zh.sthlp
+f mgarch_dcc_zh.sthlp
+f mgarch_dvech_postestimation_zh.sthlp
+f mgarch_dvech_zh.sthlp
+f mgarch_vcc_postestimation_zh.sthlp
+f mgarch_vcc_zh.sthlp
+f mgarch_zh.sthlp
+f mhodds_zh.sthlp
+f minbound_zh.sthlp
+f minor_tick_rule_zh.sthlp
+f missing_zh.sthlp
+f misstable_zh.sthlp
+f mixed_postestimation_zh.sthlp
+f mixed_zh.sthlp
+f mi_add_zh.sthlp
+f mi_append_zh.sthlp
+f mi_boot_note_zh.sthlp
+f mi_convert_zh.sthlp
+f mi_copy_zh.sthlp
+f mi_describe_zh.sthlp
+f mi_erase_zh.sthlp
+f mi_estimate_using_zh.sthlp

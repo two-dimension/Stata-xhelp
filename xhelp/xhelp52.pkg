@@ -1,0 +1,74 @@
+v 3
+d xhelp -- Tools to create and display translated help files
+d 
+d -xhelp- is an extension to the official -help- command, which provides 
+d tools to edit original help files into translated version and display 
+d them (or the original one when translated version not found).
+d 
+d KW: workflow
+d KW: help system
+d 
+d Requires: Stata version 9
+d
+d Version: 0.1
+d Distribution-Date: 2022-06-20
+d 
+d Author:  Yongyi Zeng (Xiamen University, PRC)
+d Support: zzyy@xmu.edu.cn
+d 
+
+* comments, not be displayed.
+* f lines name the files that comprise your package.
+* F can force a default-not-installed file to be install to sysdir.
+* help net
+
+f stdescribe_zh.sthlp
+f std_options_zh.sthlp
+f stem_zh.sthlp
+f stepwise_zh.sthlp
+f stfill_zh.sthlp
+f stgen_zh.sthlp
+f stintreg_postestimation_zh.sthlp
+f stintreg_zh.sthlp
+f stir_zh.sthlp
+f storage_modes_zh.sthlp
+f storedresults_zh.sthlp
+f stored_results_zh.sthlp
+f stphtest_zh.sthlp
+f stpower_cox_zh.sthlp
+f stpower_dlg_zh.sthlp
+f stpower_exponential_zh.sthlp
+f stpower_logrank_zh.sthlp
+f stpower_zh.sthlp
+f stptime_j_zh.sthlp
+f stptime_zh.sthlp
+f strate_j_zh.sthlp
+f strate_zh.sthlp
+f streg_postestimation_zh.sthlp
+f streg_zh.sthlp
+f strings_zh.sthlp
+f string_functions_zh.sthlp
+f strllist_zh.sthlp
+f stset_zh.sthlp
+f stsplit_zh.sthlp
+f stsum_zh.sthlp
+f sts_dlg_zh.sthlp
+f sts_generate_zh.sthlp
+f sts_graph_zh.sthlp
+f sts_list_zh.sthlp
+f sts_test_zh.sthlp
+f sts_zh.sthlp
+f stteffects_intro_zh.sthlp
+f stteffects_ipwra_zh.sthlp
+f stteffects_ipw_zh.sthlp
+f stteffects_postestimation_zh.sthlp
+f stteffects_ra_zh.sthlp
+f stteffects_wra_zh.sthlp
+f stteffects_zh.sthlp
+f sttocc_zh.sthlp
+f sttoct_zh.sthlp
+f stvary_zh.sthlp
+f stweib_zh.sthlp
+f stylelists_zh.sthlp
+f st_forceshared_zh.sthlp
+f st_glossary_zh.sthlp

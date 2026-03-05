@@ -1,0 +1,74 @@
+v 3
+d xhelp -- Tools to create and display translated help files
+d 
+d -xhelp- is an extension to the official -help- command, which provides 
+d tools to edit original help files into translated version and display 
+d them (or the original one when translated version not found).
+d 
+d KW: workflow
+d KW: help system
+d 
+d Requires: Stata version 9
+d
+d Version: 0.1
+d Distribution-Date: 2022-06-20
+d 
+d Author:  Yongyi Zeng (Xiamen University, PRC)
+d Support: zzyy@xmu.edu.cn
+d 
+
+* comments, not be displayed.
+* f lines name the files that comprise your package.
+* F can force a default-not-installed file to be install to sysdir.
+* help net
+
+f language_zh.sthlp
+f lassocoef_zh.sthlp
+f lassogof_zh.sthlp
+f lassoinfo_zh.sthlp
+f lassoknots_zh.sthlp
+f lassoselect_zh.sthlp
+f lasso_estimates_store_zh.sthlp
+f lasso_glossary_zh.sthlp
+f lasso_inference_postestimation_zh.sthlp
+f lasso_intro_zh.sthlp
+f lasso_options_zh.sthlp
+f lasso_postestimation_zh.sthlp
+f lasso_zh.sthlp
+f legendstyle_zh.sthlp
+f legend_options_zh.sthlp
+f legend_order_zh.sthlp
+f levelsof_zh.sthlp
+f levels_zh.sthlp
+f level_zh.sthlp
+f leverage_zh.sthlp
+f lfit_zh.sthlp
+f limits_zh.sthlp
+f lincom_zh.sthlp
+f linealignmentstyle_zh.sthlp
+f linegap_zh.sthlp
+f linepatternstyle_zh.sthlp
+f linestyle_zh.sthlp
+f lines_zh.sthlp
+f linewidthstyle_zh.sthlp
+f line_options_zh.sthlp
+f line_zh.sthlp
+f linktest_zh.sthlp
+f lin_anova_example_zh.sthlp
+f lin_manova_example_zh.sthlp
+f list_zh.sthlp
+f lmbuild_zh.sthlp
+f lnskew0_zh.sthlp
+f locksplitters_zh.sthlp
+f logistic_estat_gof_zh.sthlp
+f logistic_postestimation_zh.sthlp
+f logistic_zh.sthlp
+f logit_postestimation_zh.sthlp
+f logit_zh.sthlp
+f log_zh.sthlp
+f loneway_zh.sthlp
+f lookfor_zh.sthlp
+f lookup_zh.sthlp
+f lowess_zh.sthlp
+f lpoly_zh.sthlp
+f lrecomp_zh.sthlp

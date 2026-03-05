@@ -1,0 +1,74 @@
+v 3
+d xhelp -- Tools to create and display translated help files
+d 
+d -xhelp- is an extension to the official -help- command, which provides 
+d tools to edit original help files into translated version and display 
+d them (or the original one when translated version not found).
+d 
+d KW: workflow
+d KW: help system
+d 
+d Requires: Stata version 9
+d
+d Version: 0.1
+d Distribution-Date: 2022-06-20
+d 
+d Author:  Yongyi Zeng (Xiamen University, PRC)
+d Support: zzyy@xmu.edu.cn
+d 
+
+* comments, not be displayed.
+* f lines name the files that comprise your package.
+* F can force a default-not-installed file to be install to sysdir.
+* help net
+
+f f_hypergeometric_zh.sthlp
+f f_h_zh.sthlp
+f f_ibetatail_zh.sthlp
+f f_ibeta_zh.sthlp
+f f_igaussianden_zh.sthlp
+f f_igaussiantail_zh.sthlp
+f f_igaussian_zh.sthlp
+f f_indexnot_zh.sthlp
+f f_inlist_zh.sthlp
+f f_inrange_zh.sthlp
+f f_int_zh.sthlp
+f f_invbinomialtail_zh.sthlp
+f f_invbinomial_zh.sthlp
+f f_invcauchytail_zh.sthlp
+f f_invcauchy_zh.sthlp
+f f_invchi2tail_zh.sthlp
+f f_invchi2_zh.sthlp
+f f_invcloglog_zh.sthlp
+f f_invdunnettprob_zh.sthlp
+f f_invexponentialtail_zh.sthlp
+f f_invexponential_zh.sthlp
+f f_invftail_zh.sthlp
+f f_invf_zh.sthlp
+f f_invgammaptail_zh.sthlp
+f f_invgammap_zh.sthlp
+f f_invibetatail_zh.sthlp
+f f_invibeta_zh.sthlp
+f f_invigaussiantail_zh.sthlp
+f f_invigaussian_zh.sthlp
+f f_invlaplacetail_zh.sthlp
+f f_invlaplace_zh.sthlp
+f f_invlogistictail_zh.sthlp
+f f_invlogistic_zh.sthlp
+f f_invlogit_zh.sthlp
+f f_invnbinomialtail_zh.sthlp
+f f_invnbinomial_zh.sthlp
+f f_invnchi2tail_zh.sthlp
+f f_invnchi2_zh.sthlp
+f f_invnftail_zh.sthlp
+f f_invnf_zh.sthlp
+f f_invnibeta_zh.sthlp
+f f_invnormal_zh.sthlp
+f f_invnttail_zh.sthlp
+f f_invnt_zh.sthlp
+f f_invpoissontail_zh.sthlp
+f f_invpoisson_zh.sthlp
+f f_invsym_zh.sthlp
+f f_invttail_zh.sthlp
+f f_invtukeyprob_zh.sthlp
+f f_invt_zh.sthlp

@@ -1,0 +1,74 @@
+v 3
+d xhelp -- Tools to create and display translated help files
+d 
+d -xhelp- is an extension to the official -help- command, which provides 
+d tools to edit original help files into translated version and display 
+d them (or the original one when translated version not found).
+d 
+d KW: workflow
+d KW: help system
+d 
+d Requires: Stata version 9
+d
+d Version: 0.1
+d Distribution-Date: 2022-06-20
+d 
+d Author:  Yongyi Zeng (Xiamen University, PRC)
+d Support: zzyy@xmu.edu.cn
+d 
+
+* comments, not be displayed.
+* f lines name the files that comprise your package.
+* F can force a default-not-installed file to be install to sysdir.
+* help net
+
+f erase_zh.sthlp
+f eregress_postestimation_zh.sthlp
+f eregress_predict_zh.sthlp
+f eregress_zh.sthlp
+f ereturn_zh.sthlp
+f erm_estat_teffects_zh.sthlp
+f erm_glossary_zh.sthlp
+f erm_intro_zh.sthlp
+f erm_options_zh.sthlp
+f erm_predict_advanced_zh.sthlp
+f erm_predict_treatment_zh.sthlp
+f error_messages_zh.sthlp
+f error_zh.sthlp
+f esize_zh.sthlp
+f estat_abond_zh.sthlp
+f estat_acplot_zh.sthlp
+f estat_alternatives_zh.sthlp
+f estat_anti_zh.sthlp
+f estat_aroots_zh.sthlp
+f estat_bubbleplot_zh.sthlp
+f estat_classification_zh.sthlp
+f estat_com_zh.sthlp
+f estat_con_zh.sthlp
+f estat_coordinates_zh.sthlp
+f estat_correlations_zh.sthlp
+f estat_covariance_zh.sthlp
+f estat_co_zh.sthlp
+f estat_df_zh.sthlp
+f estat_eform_zh.sthlp
+f estat_endogenous_zh.sthlp
+f estat_facweights_zh.sthlp
+f estat_gof_zh.sthlp
+f estat_grdistances_zh.sthlp
+f estat_greport_zh.sthlp
+f estat_group_zh.sthlp
+f estat_icc_zh.sthlp
+f estat_ic_zh.sthlp
+f estat_kmo_zh.sthlp
+f estat_lcmean_zh.sthlp
+f estat_lcprob_zh.sthlp
+f estat_loadings_zh.sthlp
+f estat_mfx_zh.sthlp
+f estat_moran_zh.sthlp
+f estat_overid_zh.sthlp
+f estat_policy_zh.sthlp
+f estat_programming_zh.sthlp
+f estat_recovariance_zh.sthlp
+f estat_report_zh.sthlp
+f estat_residuals_zh.sthlp
+f estat_rotatecompare_zh.sthlp

@@ -1,0 +1,74 @@
+v 3
+d xhelp -- Tools to create and display translated help files
+d 
+d -xhelp- is an extension to the official -help- command, which provides 
+d tools to edit original help files into translated version and display 
+d them (or the original one when translated version not found).
+d 
+d KW: workflow
+d KW: help system
+d 
+d Requires: Stata version 9
+d
+d Version: 0.1
+d Distribution-Date: 2022-06-20
+d 
+d Author:  Yongyi Zeng (Xiamen University, PRC)
+d Support: zzyy@xmu.edu.cn
+d 
+
+* comments, not be displayed.
+* f lines name the files that comprise your package.
+* F can force a default-not-installed file to be install to sysdir.
+* help net
+
+f sem_and_gsem_path_notation_zh.sthlp
+f sem_and_gsem_syntax_options_zh.sthlp
+f sem_builder_zh.sthlp
+f sem_command_zh.sthlp
+f sem_estat_eform_zh.sthlp
+f sem_estat_eqgof_zh.sthlp
+f sem_estat_eqtest_zh.sthlp
+f sem_estat_framework_zh.sthlp
+f sem_estat_ggof_zh.sthlp
+f sem_estat_ginvariant_zh.sthlp
+f sem_estat_gof_zh.sthlp
+f sem_estat_lcgof_zh.sthlp
+f sem_estat_lcmean_zh.sthlp
+f sem_estat_lcprob_zh.sthlp
+f sem_estat_mindices_zh.sthlp
+f sem_estat_residuals_zh.sthlp
+f sem_estat_scoretests_zh.sthlp
+f sem_estat_sd_zh.sthlp
+f sem_estat_stable_zh.sthlp
+f sem_estat_stdize_zh.sthlp
+f sem_estat_summarize_zh.sthlp
+f sem_estat_teffects_zh.sthlp
+f sem_estimation_options_zh.sthlp
+f sem_examples_zh.sthlp
+f sem_glossary_zh.sthlp
+f sem_group_options_zh.sthlp
+f sem_intro_zh.sthlp
+f sem_lincom_zh.sthlp
+f sem_lrtest_zh.sthlp
+f sem_model_options_zh.sthlp
+f sem_nlcom_zh.sthlp
+f sem_option_method_zh.sthlp
+f sem_option_noxconditional_zh.sthlp
+f sem_option_select_zh.sthlp
+f sem_path_notation_extensions_zh.sthlp
+f sem_postestimation_zh.sthlp
+f sem_predict_zh.sthlp
+f sem_reporting_options_zh.sthlp
+f sem_ssd_options_zh.sthlp
+f sem_testnl_zh.sthlp
+f sem_test_zh.sthlp
+f sem_zh.sthlp
+f separate_zh.sthlp
+f serrbar_zh.sthlp
+f serset_zh.sthlp
+f set_buildfvinfo_zh.sthlp
+f set_cformat_zh.sthlp
+f set_coeftabresults_zh.sthlp
+f set_ctrlh_zh.sthlp
+f set_defaults_zh.sthlp

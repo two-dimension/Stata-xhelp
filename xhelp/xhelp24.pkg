@@ -1,0 +1,74 @@
+v 3
+d xhelp -- Tools to create and display translated help files
+d 
+d -xhelp- is an extension to the official -help- command, which provides 
+d tools to edit original help files into translated version and display 
+d them (or the original one when translated version not found).
+d 
+d KW: workflow
+d KW: help system
+d 
+d Requires: Stata version 9
+d
+d Version: 0.1
+d Distribution-Date: 2022-06-20
+d 
+d Author:  Yongyi Zeng (Xiamen University, PRC)
+d Support: zzyy@xmu.edu.cn
+d 
+
+* comments, not be displayed.
+* f lines name the files that comprise your package.
+* F can force a default-not-installed file to be install to sysdir.
+* help net
+
+f graph_dir_zh.sthlp
+f graph_display_zh.sthlp
+f graph_dlg_zh.sthlp
+f graph_dot_zh.sthlp
+f graph_drop_zh.sthlp
+f graph_editor_zh.sthlp
+f graph_export_zh.sthlp
+f graph_headlabel_zh.sthlp
+f graph_height_zh.sthlp
+f graph_intro_zh.sthlp
+f graph_jitterseed_zh.sthlp
+f graph_jitter_zh.sthlp
+f graph_lcolor_zh.sthlp
+f graph_lpattern_zh.sthlp
+f graph_lstyle_zh.sthlp
+f graph_lwidth_zh.sthlp
+f graph_manipulation_zh.sthlp
+f graph_matrix_zh.sthlp
+f graph_msize_zh.sthlp
+f graph_other_zh.sthlp
+f graph_over_gap_zh.sthlp
+f graph_over_relabel_zh.sthlp
+f graph_over_sort_zh.sthlp
+f graph_over_zh.sthlp
+f graph_pie_zh.sthlp
+f graph_play_zh.sthlp
+f graph_print_zh.sthlp
+f graph_query_zh.sthlp
+f graph_rename_zh.sthlp
+f graph_replay_zh.sthlp
+f graph_save_zh.sthlp
+f graph_set_zh.sthlp
+f graph_text_zh.sthlp
+f graph_twoway_zh.sthlp
+f graph_use_zh.sthlp
+f graph_width_zh.sthlp
+f graph_zh.sthlp
+f grebar_zh.sthlp
+f greigen_zh.sthlp
+f gridstyle_zh.sthlp
+f grmap_zh.sthlp
+f grmeanby_zh.sthlp
+f gsem_builder_zh.sthlp
+f gsem_command_zh.sthlp
+f gsem_estimation_options_zh.sthlp
+f gsem_family_and_link_options_zh.sthlp
+f gsem_fvstandard_zh.sthlp
+f gsem_group_options_zh.sthlp
+f gsem_lclass_options_zh.sthlp
+f gsem_model_options_zh.sthlp

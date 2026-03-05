@@ -1,0 +1,74 @@
+v 3
+d xhelp -- Tools to create and display translated help files
+d 
+d -xhelp- is an extension to the official -help- command, which provides 
+d tools to edit original help files into translated version and display 
+d them (or the original one when translated version not found).
+d 
+d KW: workflow
+d KW: help system
+d 
+d Requires: Stata version 9
+d
+d Version: 0.1
+d Distribution-Date: 2022-06-20
+d 
+d Author:  Yongyi Zeng (Xiamen University, PRC)
+d Support: zzyy@xmu.edu.cn
+d 
+
+* comments, not be displayed.
+* f lines name the files that comprise your package.
+* F can force a default-not-installed file to be install to sysdir.
+* help net
+
+f bayesmh_simopts_zh.ihlp
+f bayespost_chainoptsdes_zh.ihlp
+f bayespost_chainopts_zh.ihlp
+f bayespost_macro_chains_zh.ihlp
+f bayespost_scalar_nchains_zh.ihlp
+f bayespost_showreoptdes_zh.ihlp
+f bayespost_skipoptsdes_zh.ihlp
+f bayespost_syntablegend_zh.ihlp
+f bayesstats_funcspec_zh.ihlp
+f bayesstats_label_zh.ihlp
+f bayesstats_largedta_zh.ihlp
+f bayesstats_muspec_zh.ihlp
+f bayesstats_predfile_zh.ihlp
+f bayes_blockoptsdes_zh.ihlp
+f bayes_clevel_hpd_short_zh.ihlp
+f bayes_clevel_hpd_zh.ihlp
+f bayes_corr_zh.ihlp
+f bayes_display_zh.ihlp
+f bayes_eform_zh.ihlp
+f bayes_exprspec_zh.ihlp
+f bayes_initoptsdes_zh.ihlp
+f bayes_opts_zh.ihlp
+f bayes_paramspec_zh.ihlp
+f bayes_prioroptsdes_zh.ihlp
+f bayes_reportoptsdes_zh.ihlp
+f bayes_reportopts_zh.ihlp
+f bayes_simoptsdes_zh.ihlp
+f ciw_ciopts_zh.ihlp
+f ciw_graphoptsdes_zh.ihlp
+f ciw_graphopts_zh.ihlp
+f ciw_initoptdes_zh.ihlp
+f ciw_iteroptsdes_zh.ihlp
+f ciw_iteropts_zh.ihlp
+f ciw_nfracopt_zh.ihlp
+f ciw_nnumopts_zh.ihlp
+f ciw_nodboptdes_zh.ihlp
+f ciw_nopt_zh.ihlp
+f ciw_paralleloptdes_zh.ihlp
+f ciw_sideoptsdes_zh.ihlp
+f ciw_sideopts_zh.ihlp
+f ciw_tableoptsdes_zh.ihlp
+f ciw_tableopts_zh.ihlp
+f ciw_twosamplesdes_zh.ihlp
+f ci_opt_zh.ihlp
+f clustermat_hier_optstab_zh.ihlp
+f clustermat_hier_opts_zh.ihlp
+f cluster_dendro_optstab_zh.ihlp
+f cluster_generate_optstab_zh.ihlp
+f cluster_hier_optstab_zh.ihlp
+f cluster_kmeans_optstab_zh.ihlp

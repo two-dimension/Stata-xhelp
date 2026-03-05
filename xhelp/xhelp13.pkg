@@ -1,0 +1,74 @@
+v 3
+d xhelp -- Tools to create and display translated help files
+d 
+d -xhelp- is an extension to the official -help- command, which provides 
+d tools to edit original help files into translated version and display 
+d them (or the original one when translated version not found).
+d 
+d KW: workflow
+d KW: help system
+d 
+d Requires: Stata version 9
+d
+d Version: 0.1
+d Distribution-Date: 2022-06-20
+d 
+d Author:  Yongyi Zeng (Xiamen University, PRC)
+d Support: zzyy@xmu.edu.cn
+d 
+
+* comments, not be displayed.
+* f lines name the files that comprise your package.
+* F can force a default-not-installed file to be install to sysdir.
+* help net
+
+f estat_sbcusum_zh.sthlp
+f estat_sbknown_zh.sthlp
+f estat_sbsingle_zh.sthlp
+f estat_sd_zh.sthlp
+f estat_se_zh.sthlp
+f estat_smc_zh.sthlp
+f estat_stable_zh.sthlp
+f estat_steady_zh.sthlp
+f estat_structure_zh.sthlp
+f estat_str_zh.sthlp
+f estat_summarize_zh.sthlp
+f estat_teffects_zh.sthlp
+f estat_transition_zh.sthlp
+f estat_vce_zh.sthlp
+f estat_wcorrelation_zh.sthlp
+f estat_zh.sthlp
+f estcom_zh.sthlp
+f estimates_describe_zh.sthlp
+f estimates_dlg_zh.sthlp
+f estimates_for_zh.sthlp
+f estimates_notes_zh.sthlp
+f estimates_replay_zh.sthlp
+f estimates_save_zh.sthlp
+f estimates_selected_zh.sthlp
+f estimates_stats_zh.sthlp
+f estimates_store_zh.sthlp
+f estimates_table_zh.sthlp
+f estimates_title_zh.sthlp
+f estimates_zh.sthlp
+f estimation_commands_zh.sthlp
+f estimation_options_zh.sthlp
+f estimation_zh.sthlp
+f est_table_equations_zh.sthlp
+f eteffects_postestimation_zh.sthlp
+f eteffects_zh.sthlp
+f etpoisson_postestimation_zh.sthlp
+f etpoisson_zh.sthlp
+f etregress_postestimation_zh.sthlp
+f etregress_zh.sthlp
+f examplehelpfile_zh.sthlp
+f exit_program_zh.sthlp
+f exit_zh.sthlp
+f exlogistic_postestimation_zh.sthlp
+f exlogistic_zh.sthlp
+f expandcl_zh.sthlp
+f expand_zh.sthlp
+f expoisson_postestimation_zh.sthlp
+f expoisson_zh.sthlp
+f export_zh.sthlp
+f expr_query_zh.sthlp

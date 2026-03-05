@@ -1,0 +1,74 @@
+v 3
+d xhelp -- Tools to create and display translated help files
+d 
+d -xhelp- is an extension to the official -help- command, which provides 
+d tools to edit original help files into translated version and display 
+d them (or the original one when translated version not found).
+d 
+d KW: workflow
+d KW: help system
+d 
+d Requires: Stata version 9
+d
+d Version: 0.1
+d Distribution-Date: 2022-06-20
+d 
+d Author:  Yongyi Zeng (Xiamen University, PRC)
+d Support: zzyy@xmu.edu.cn
+d 
+
+* comments, not be displayed.
+* f lines name the files that comprise your package.
+* F can force a default-not-installed file to be install to sysdir.
+* help net
+
+f classman_zh.sthlp
+f classutil_zh.sthlp
+f class_exit_zh.sthlp
+f class_zh.sthlp
+f clear_zh.sthlp
+f clegend_option_zh.sthlp
+f clevel_zh.sthlp
+f cline_options_zh.sthlp
+f clist_zh.sthlp
+f clockposstyle_zh.sthlp
+f clogit_postestimation_zh.sthlp
+f clogit_zh.sthlp
+f cloglog_postestimation_zh.sthlp
+f cloglog_zh.sthlp
+f clonevar_zh.sthlp
+f cls_zh.sthlp
+f clustermat_dlg_zh.sthlp
+f clustermat_zh.sthlp
+f cluster_dendrogram_zh.sthlp
+f cluster_dlg_zh.sthlp
+f cluster_generate_zh.sthlp
+f cluster_kmeans_zh.sthlp
+f cluster_linkage_zh.sthlp
+f cluster_notes_zh.sthlp
+f cluster_programming_zh.sthlp
+f cluster_stop_zh.sthlp
+f cluster_subroutines_zh.sthlp
+f cluster_utility_zh.sthlp
+f cluster_zh.sthlp
+f cmchoiceset_zh.sthlp
+f cmclogit_postestimation_zh.sthlp
+f cmclogit_zh.sthlp
+f cmmixlogit_postestimation_zh.sthlp
+f cmmixlogit_zh.sthlp
+f cmmprobit_postestimation_zh.sthlp
+f cmmprobit_zh.sthlp
+f cmrologit_postestimation_zh.sthlp
+f cmrologit_zh.sthlp
+f cmroprobit_postestimation_zh.sthlp
+f cmroprobit_zh.sthlp
+f cmsample_zh.sthlp
+f cmset_zh.sthlp
+f cmsummarize_zh.sthlp
+f cmtab_zh.sthlp
+f cmxtmixlogit_postestimation_zh.sthlp
+f cmxtmixlogit_zh.sthlp
+f cm_glossary_zh.sthlp
+f cm_margins_zh.sthlp
+f cm_zh.sthlp
+f cnreg_postestimation_zh.sthlp

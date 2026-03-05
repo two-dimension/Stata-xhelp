@@ -1,0 +1,16 @@
+
+{help f_ustrleft:English Version}
+{hline}
+{* *! version 1.0.1  10mar2015}{...}
+    {cmd:ustrleft(}{it:s}{cmd:,}{it:n}{cmd:)}
+{p2colset 8 22 22 2}{...}
+{p2col: 描述:}输入的 Unicode 字符串 {it:s} 的前 {it:n} 个 Unicode 字符 {p_end}
+
+{p2col:}无效的 UTF-8 序列将被替换为 Unicode 替换字符 {bf:\ufffd}.{p_end}
+
+{p2col:}{cmd:ustrleft("Экспериментальные",3)} = {cmd:"Экс"}{break}
+        {cmd:ustrleft("Экспериментальные",5)} = {cmd:"Экспе"}{p_end}
+{p2col: 域 {it:s}:}Unicode 字符串{p_end}
+{p2col: 域 {it:n}:}整数{p_end}
+{p2col: 范围:}Unicode 字符串{p_end}
+{p2colreset}{...}

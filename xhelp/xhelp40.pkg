@@ -1,0 +1,74 @@
+v 3
+d xhelp -- Tools to create and display translated help files
+d 
+d -xhelp- is an extension to the official -help- command, which provides 
+d tools to edit original help files into translated version and display 
+d them (or the original one when translated version not found).
+d 
+d KW: workflow
+d KW: help system
+d 
+d Requires: Stata version 9
+d
+d Version: 0.1
+d Distribution-Date: 2022-06-20
+d 
+d Author:  Yongyi Zeng (Xiamen University, PRC)
+d Support: zzyy@xmu.edu.cn
+d 
+
+* comments, not be displayed.
+* f lines name the files that comprise your package.
+* F can force a default-not-installed file to be install to sysdir.
+* help net
+
+f mi_estimate_zh.sthlp
+f mi_estimation_zh.sthlp
+f mi_ewarning_zh.sthlp
+f mi_expand_zh.sthlp
+f mi_export_ice_zh.sthlp
+f mi_export_nhanes1_zh.sthlp
+f mi_export_zh.sthlp
+f mi_extract_zh.sthlp
+f mi_glossary_zh.sthlp
+f mi_import_flongsep_zh.sthlp
+f mi_import_flong_zh.sthlp
+f mi_import_ice_zh.sthlp
+f mi_import_nhanes1_zh.sthlp
+f mi_import_wide_zh.sthlp
+f mi_import_zh.sthlp
+f mi_impute_chained_zh.sthlp
+f mi_impute_intreg_zh.sthlp
+f mi_impute_logit_zh.sthlp
+f mi_impute_mlogit_zh.sthlp
+f mi_impute_monotone_zh.sthlp
+f mi_impute_mvn_zh.sthlp
+f mi_impute_nbreg_zh.sthlp
+f mi_impute_ologit_zh.sthlp
+f mi_impute_pmm_zh.sthlp
+f mi_impute_poisson_zh.sthlp
+f mi_impute_regress_zh.sthlp
+f mi_impute_truncreg_zh.sthlp
+f mi_impute_usermethod_zh.sthlp
+f mi_impute_zh.sthlp
+f mi_intro_substantive_zh.sthlp
+f mi_mcerrorci_zh.sthlp
+f mi_mcerroreform_zh.sthlp
+f mi_merge_zh.sthlp
+f mi_me_note_zh.sthlp
+f mi_missingdf_zh.sthlp
+f mi_misstable_zh.sthlp
+f mi_noupdate_option_zh.sthlp
+f mi_omit_note_zh.sthlp
+f mi_passive_zh.sthlp
+f mi_postestimation_zh.sthlp
+f mi_predict_zh.sthlp
+f mi_ptrace_zh.sthlp
+f mi_rename_zh.sthlp
+f mi_replace0_zh.sthlp
+f mi_reset_zh.sthlp
+f mi_reshape_zh.sthlp
+f mi_select_zh.sthlp
+f mi_set_zh.sthlp
+f mi_stsplit_zh.sthlp
+f mi_styles_zh.sthlp

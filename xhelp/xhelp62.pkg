@@ -1,0 +1,74 @@
+v 3
+d xhelp -- Tools to create and display translated help files
+d 
+d -xhelp- is an extension to the official -help- command, which provides 
+d tools to edit original help files into translated version and display 
+d them (or the original one when translated version not found).
+d 
+d KW: workflow
+d KW: help system
+d 
+d Requires: Stata version 9
+d
+d Version: 0.1
+d Distribution-Date: 2022-06-20
+d 
+d Author:  Yongyi Zeng (Xiamen University, PRC)
+d Support: zzyy@xmu.edu.cn
+d 
+
+* comments, not be displayed.
+* f lines name the files that comprise your package.
+* F can force a default-not-installed file to be install to sysdir.
+* help net
+
+f cluster_kmeans_syntax_zh.ihlp
+f cluster_kmedians_syntax_zh.ihlp
+f cluster_notes_syntax_zh.ihlp
+f cluster_programming_syntax_zh.ihlp
+f cluster_stop_syntax_zh.ihlp
+f cluster_utility_syntax_zh.ihlp
+f clus_linkage_zh.ihlp
+f cmmprobit_options_model_zh.ihlp
+f controls_short_zh.ihlp
+f cpr_lb_ub_option_zh.ihlp
+f des_irt_predict_int_zh.ihlp
+f des_irt_predict_item_zh.ihlp
+f des_irt_predict_latent_zh.ihlp
+f des_irt_predict_outcome2_zh.ihlp
+f des_irt_predict_outcome_zh.ihlp
+f des_irt_predict_pr_zh.ihlp
+f des_irt_predict_scores_zh.ihlp
+f des_irt_predict_se_zh.ihlp
+f des_irt_predict_xb_zh.ihlp
+f discrim_optsp_zh.ihlp
+f discrim_opts_zh.ihlp
+f discrim_priorsp_zh.ihlp
+f discrim_priors_zh.ihlp
+f displayopts_listb_zh.ihlp
+f displayopts_list_zh.ihlp
+f dots_zh.ihlp
+f enc_list_zh.ihlp
+f erm_enopts_table_zh.ihlp
+f erm_entropts_table_zh.ihlp
+f erm_extropts_table_zh.ihlp
+f erm_integration_tab_zh.ihlp
+f erm_int_optdes_zh.ihlp
+f erm_max_optdes_zh.ihlp
+f erm_menu_zh.ihlp
+f erm_model_optdes_zh.ihlp
+f erm_model_tab_zh.ihlp
+f erm_reg_enopts_table_zh.ihlp
+f erm_reg_entropts_table_zh.ihlp
+f erm_reg_extropts_table_zh.ihlp
+f erm_reporting_optdes_zh.ihlp
+f erm_report_tab_zh.ihlp
+f erm_selopts_table_zh.ihlp
+f erm_tselopts_table_zh.ihlp
+f erm_vce_optdes_zh.ihlp
+f erm_vce_tab_zh.ihlp
+f esample_zh.ihlp
+f fmm_options_note_zh.ihlp
+f fmm_options_table_zh.ihlp
+f fmm_pclass_table_zh.ihlp
+f fn_pr_out_zh.ihlp

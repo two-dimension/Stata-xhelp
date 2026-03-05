@@ -1,0 +1,74 @@
+v 3
+d xhelp -- Tools to create and display translated help files
+d 
+d -xhelp- is an extension to the official -help- command, which provides 
+d tools to edit original help files into translated version and display 
+d them (or the original one when translated version not found).
+d 
+d KW: workflow
+d KW: help system
+d 
+d Requires: Stata version 9
+d
+d Version: 0.1
+d Distribution-Date: 2022-06-20
+d 
+d Author:  Yongyi Zeng (Xiamen University, PRC)
+d Support: zzyy@xmu.edu.cn
+d 
+
+* comments, not be displayed.
+* f lines name the files that comprise your package.
+* F can force a default-not-installed file to be install to sysdir.
+* help net
+
+f cnreg_zh.sthlp
+f cnsreg_postestimation_zh.sthlp
+f cnsreg_zh.sthlp
+f codebook_problems_zh.sthlp
+f codebook_zh.sthlp
+f coefpath_zh.sthlp
+f collapse_zh.sthlp
+f colorstyle_zh.sthlp
+f comments_zh.sthlp
+f compare_zh.sthlp
+f compassdirstyle_zh.sthlp
+f compress_zh.sthlp
+f confirm_zh.sthlp
+f connectstyle_zh.sthlp
+f connect_options_zh.sthlp
+f conren_zh.sthlp
+f constraint_zh.sthlp
+f contents_data_basic_zh.sthlp
+f contents_data_certifying_zh.sthlp
+f contents_data_changing_zh.sthlp
+f contents_data_combining_zh.sthlp
+f contents_data_dates_zh.sthlp
+f contents_data_examining_zh.sthlp
+f contents_data_file_manipulation_zh.sthlp
+f contents_data_functions_zh.sthlp
+f contents_data_labeling_zh.sthlp
+f contents_data_loading_zh.sthlp
+f contents_data_miscellaneous_zh.sthlp
+f contents_data_multiple_imputation_zh.sthlp
+f contents_data_reshaping_zh.sthlp
+f contents_data_string_zh.sthlp
+f contents_data_vars_zh.sthlp
+f contents_data_zh.sthlp
+f contents_graphics_concepts_zh.sthlp
+f contents_graphics_distributional_zh.sthlp
+f contents_graphics_editing_zh.sthlp
+f contents_graphics_graphs_zh.sthlp
+f contents_graphics_irt_zh.sthlp
+f contents_graphics_lasso_zh.sthlp
+f contents_graphics_meta_zh.sthlp
+f contents_graphics_more_zh.sthlp
+f contents_graphics_multivariate_zh.sthlp
+f contents_graphics_quality_zh.sthlp
+f contents_graphics_regression_diagnostic_zh.sthlp
+f contents_graphics_roc_zh.sthlp
+f contents_graphics_schemes_zh.sthlp
+f contents_graphics_smoothing_zh.sthlp
+f contents_graphics_survival_zh.sthlp
+f contents_graphics_time_series_zh.sthlp
+f contents_graphics_utilities_zh.sthlp

@@ -1,0 +1,74 @@
+v 3
+d xhelp -- Tools to create and display translated help files
+d 
+d -xhelp- is an extension to the official -help- command, which provides 
+d tools to edit original help files into translated version and display 
+d them (or the original one when translated version not found).
+d 
+d KW: workflow
+d KW: help system
+d 
+d Requires: Stata version 9
+d
+d Version: 0.1
+d Distribution-Date: 2022-06-20
+d 
+d Author:  Yongyi Zeng (Xiamen University, PRC)
+d Support: zzyy@xmu.edu.cn
+d 
+
+* comments, not be displayed.
+* f lines name the files that comprise your package.
+* F can force a default-not-installed file to be install to sysdir.
+* help net
+
+f nestreg_zh.sthlp
+f netio_zh.sthlp
+f net_mnu_zh.sthlp
+f net_search_zh.sthlp
+f net_zh.sthlp
+f newey_postestimation_zh.sthlp
+f newey_zh.sthlp
+f news_zh.sthlp
+f newvarlist_zh.sthlp
+f newvar_zh.sthlp
+f nlcom_examples_zh.sthlp
+f nlcom_zh.sthlp
+f nlinit_zh.sthlp
+f nlist_zh.sthlp
+f nlogit_postestimation_zh.sthlp
+f nlogit_zh.sthlp
+f nlsur_postestimation_zh.sthlp
+f nlsur_zh.sthlp
+f nl_postestimation_zh.sthlp
+f nl_zh.sthlp
+f nodraw_option_zh.sthlp
+f nopreserve_zh.sthlp
+f notes_dlg_zh.sthlp
+f notes_zh.sthlp
+f notes__zh.sthlp
+f notifyuser_zh.sthlp
+f novarabbrev_zh.sthlp
+f npregress_dlg_zh.sthlp
+f npregress_kernel_postestimation_zh.sthlp
+f npregress_kernel_zh.sthlp
+f npregress_postestimation_zh.sthlp
+f npregress_series_postestimation_zh.sthlp
+f npregress_series_zh.sthlp
+f npregress_zh.sthlp
+f nptrend_zh.sthlp
+f numlist_zh.sthlp
+f n_npe_note_zh.sthlp
+f obs_advice_zh.sthlp
+f obs_zh.sthlp
+f odbc_dlg_zh.sthlp
+f odbc_zh.sthlp
+f ologitp_zh.sthlp
+f ologit_postestimation_zh.sthlp
+f ologit_zh.sthlp
+f oneway_zh.sthlp
+f operator_zh.sthlp
+f oprobit_postestimation_zh.sthlp
+f oprobit_zh.sthlp
+f optimize_11_zh.sthlp
+f options_zh.sthlp

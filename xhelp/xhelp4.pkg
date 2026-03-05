@@ -1,0 +1,74 @@
+v 3
+d xhelp -- Tools to create and display translated help files
+d 
+d -xhelp- is an extension to the official -help- command, which provides 
+d tools to edit original help files into translated version and display 
+d them (or the original one when translated version not found).
+d 
+d KW: workflow
+d KW: help system
+d 
+d Requires: Stata version 9
+d
+d Version: 0.1
+d Distribution-Date: 2022-06-20
+d 
+d Author:  Yongyi Zeng (Xiamen University, PRC)
+d Support: zzyy@xmu.edu.cn
+d 
+
+* comments, not be displayed.
+* f lines name the files that comprise your package.
+* F can force a default-not-installed file to be install to sysdir.
+* help net
+
+f brr_options_zh.sthlp
+f bsample_zh.sthlp
+f bstat_zh.sthlp
+f byprog_zh.sthlp
+f bystyle_zh.sthlp
+f by_option_zh.sthlp
+f by_zh.sthlp
+f calendars_zh.sthlp
+f candisc_zh.sthlp
+f canon_postestimation_zh.sthlp
+f canon_zh.sthlp
+f capture_zh.sthlp
+f cat_axis_label_options_zh.sthlp
+f cat_axis_line_options_zh.sthlp
+f ca_postestimation_plots_zh.sthlp
+f ca_postestimation_zh.sthlp
+f ca_statistics_old_zh.sthlp
+f ca_statistics_zh.sthlp
+f ca_zh.sthlp
+f cc_zh.sthlp
+f cd_zh.sthlp
+f centile_zh.sthlp
+f cf_zh.sthlp
+f changeeol_zh.sthlp
+f charset_zh.sthlp
+f char_zh.sthlp
+f chdir_zh.sthlp
+f checkdlgfiles_zh.sthlp
+f checkhlpfiles_zh.sthlp
+f checksum_zh.sthlp
+f chelp_zh.sthlp
+f churdle_postestimation_zh.sthlp
+f churdle_zh.sthlp
+f ciwidth_gui_zh.sthlp
+f ciwidth_onemean_zh.sthlp
+f ciwidth_onevariance_zh.sthlp
+f ciwidth_onevar_dlg_zh.sthlp
+f ciwidth_optgraph_zh.sthlp
+f ciwidth_opttable_zh.sthlp
+f ciwidth_pairedmeans_zh.sthlp
+f ciwidth_pairedm_dlg_zh.sthlp
+f ciwidth_twomeans_zh.sthlp
+f ciwidth_usermethod_zh.sthlp
+f ciwidth_zh.sthlp
+f ci_14_0_zh.sthlp
+f ci_zh.sthlp
+f classassign_zh.sthlp
+f classbi_zh.sthlp
+f classdeclare_zh.sthlp
+f classmacro_zh.sthlp

@@ -1,0 +1,74 @@
+v 3
+d xhelp -- Tools to create and display translated help files
+d 
+d -xhelp- is an extension to the official -help- command, which provides 
+d tools to edit original help files into translated version and display 
+d them (or the original one when translated version not found).
+d 
+d KW: workflow
+d KW: help system
+d 
+d Requires: Stata version 9
+d
+d Version: 0.1
+d Distribution-Date: 2022-06-20
+d 
+d Author:  Yongyi Zeng (Xiamen University, PRC)
+d Support: zzyy@xmu.edu.cn
+d 
+
+* comments, not be displayed.
+* f lines name the files that comprise your package.
+* F can force a default-not-installed file to be install to sysdir.
+* help net
+
+f f_invweibullphtail_zh.sthlp
+f f_invweibullph_zh.sthlp
+f f_invweibulltail_zh.sthlp
+f f_invweibull_zh.sthlp
+f f_inv_zh.sthlp
+f f_irecode_zh.sthlp
+f f_issymmetric_zh.sthlp
+f f_i_zh.sthlp
+f f_j_zh.sthlp
+f f_laplaceden_zh.sthlp
+f f_laplacetail_zh.sthlp
+f f_laplace_zh.sthlp
+f f_ln1m_zh.sthlp
+f f_ln1p_zh.sthlp
+f f_lncauchyden_zh.sthlp
+f f_lndirichletden_zh.sthlp
+f f_lnfactorial_zh.sthlp
+f f_lngamma_zh.sthlp
+f f_lngeometricp_zh.sthlp
+f f_lnigammaden_zh.sthlp
+f f_lnigaussianden_zh.sthlp
+f f_lniwishartden_zh.sthlp
+f f_lnlaplaceden_zh.sthlp
+f f_lnmvnormalden_zh.sthlp
+f f_lnnormalden_zh.sthlp
+f f_lnnormal_zh.sthlp
+f f_lnparetoden_zh.sthlp
+f f_lnwishartden_zh.sthlp
+f f_ln_zh.sthlp
+f f_log10_zh.sthlp
+f f_logisticden_zh.sthlp
+f f_logistictail_zh.sthlp
+f f_logistic_zh.sthlp
+f f_logit_zh.sthlp
+f f_matmissing_zh.sthlp
+f f_matrix_zh.sthlp
+f f_matuniform_zh.sthlp
+f f_maxbyte_zh.sthlp
+f f_maxdouble_zh.sthlp
+f f_maxfloat_zh.sthlp
+f f_maxint_zh.sthlp
+f f_maxlong_zh.sthlp
+f f_max_zh.sthlp
+f f_mdyhms_zh.sthlp
+f f_mdy_zh.sthlp
+f f_minbyte_zh.sthlp
+f f_mindouble_zh.sthlp
+f f_minfloat_zh.sthlp
+f f_minint_zh.sthlp
+f f_minlong_zh.sthlp

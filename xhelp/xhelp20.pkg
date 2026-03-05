@@ -1,0 +1,74 @@
+v 3
+d xhelp -- Tools to create and display translated help files
+d 
+d -xhelp- is an extension to the official -help- command, which provides 
+d tools to edit original help files into translated version and display 
+d them (or the original one when translated version not found).
+d 
+d KW: workflow
+d KW: help system
+d 
+d Requires: Stata version 9
+d
+d Version: 0.1
+d Distribution-Date: 2022-06-20
+d 
+d Author:  Yongyi Zeng (Xiamen University, PRC)
+d Support: zzyy@xmu.edu.cn
+d 
+
+* comments, not be displayed.
+* f lines name the files that comprise your package.
+* F can force a default-not-installed file to be install to sysdir.
+* help net
+
+f f_minutes_zh.sthlp
+f f_min_zh.sthlp
+f f_missing_zh.sthlp
+f f_mmc_zh.sthlp
+f f_mm_zh.sthlp
+f f_mod_zh.sthlp
+f f_mofd_zh.sthlp
+f f_monthly_zh.sthlp
+f f_month_zh.sthlp
+f f_mreldif_zh.sthlp
+f f_msofhours_zh.sthlp
+f f_msofminutes_zh.sthlp
+f f_msofseconds_zh.sthlp
+f f_m_zh.sthlp
+f f_nbetaden_zh.sthlp
+f f_nbinomialp_zh.sthlp
+f f_nbinomialtail_zh.sthlp
+f f_nbinomial_zh.sthlp
+f f_nchi2den_zh.sthlp
+f f_nchi2tail_zh.sthlp
+f f_nchi2_zh.sthlp
+f f_nfden_zh.sthlp
+f f_nftail_zh.sthlp
+f f_nf_zh.sthlp
+f f_nibeta_zh.sthlp
+f f_normalden_zh.sthlp
+f f_normal_zh.sthlp
+f f_normprob_zh.sthlp
+f f_npnchi2_zh.sthlp
+f f_npnf_zh.sthlp
+f f_npnt_zh.sthlp
+f f_ntden_zh.sthlp
+f f_nttail_zh.sthlp
+f f_nt_zh.sthlp
+f f_nullmat_zh.sthlp
+f f_plural_zh.sthlp
+f f_poissonp_zh.sthlp
+f f_poissontail_zh.sthlp
+f f_poisson_zh.sthlp
+f f_qofd_zh.sthlp
+f f_quarterly_zh.sthlp
+f f_quarter_zh.sthlp
+f f_q_zh.sthlp
+f f_rbeta_zh.sthlp
+f f_rbinomial_zh.sthlp
+f f_rcauchy_zh.sthlp
+f f_rchi2_zh.sthlp
+f f_real_zh.sthlp
+f f_recode_zh.sthlp
+f f_regexm_zh.sthlp

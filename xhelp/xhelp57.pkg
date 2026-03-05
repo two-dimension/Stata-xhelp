@@ -1,0 +1,74 @@
+v 3
+d xhelp -- Tools to create and display translated help files
+d 
+d -xhelp- is an extension to the official -help- command, which provides 
+d tools to edit original help files into translated version and display 
+d them (or the original one when translated version not found).
+d 
+d KW: workflow
+d KW: help system
+d 
+d Requires: Stata version 9
+d
+d Version: 0.1
+d Distribution-Date: 2022-06-20
+d 
+d Author:  Yongyi Zeng (Xiamen University, PRC)
+d Support: zzyy@xmu.edu.cn
+d 
+
+* comments, not be displayed.
+* f lines name the files that comprise your package.
+* F can force a default-not-installed file to be install to sysdir.
+* help net
+
+f varbasic_postestimation_zh.sthlp
+f varbasic_zh.sthlp
+f varclassify_zh.sthlp
+f varfcast_zh.sthlp
+f varfind_pat_examp_zh.sthlp
+f vargranger_zh.sthlp
+f varkeyboard_zh.sthlp
+f varlist_zh.sthlp
+f varlmar_zh.sthlp
+f varmanage_zh.sthlp
+f varname_zh.sthlp
+f varnorm_zh.sthlp
+f varsoc_zh.sthlp
+f varstable_zh.sthlp
+f varwle_zh.sthlp
+f var_intro_zh.sthlp
+f var_postestimation_zh.sthlp
+f var_zh.sthlp
+f vce_option_zh.sthlp
+f vce_zh.sthlp
+f veclmar_zh.sthlp
+f vecnorm_zh.sthlp
+f vecrankstar_zh.sthlp
+f vecrank_zh.sthlp
+f vecstable_zh.sthlp
+f vec_intro_zh.sthlp
+f vec_postestimation_zh.sthlp
+f vec_zh.sthlp
+f version_missing_zh.sthlp
+f version_zh.sthlp
+f videos_zh.sthlp
+f viewsource_zh.sthlp
+f view_zh.sthlp
+f vl_create_zh.sthlp
+f vl_drop_zh.sthlp
+f vl_list_zh.sthlp
+f vl_rebuild_zh.sthlp
+f vl_set_zh.sthlp
+f vl_zh.sthlp
+f vwls_postestimation_zh.sthlp
+f vwls_zh.sthlp
+f webdescribe_zh.sthlp
+f webgetsem_zh.sthlp
+f webseek_zh.sthlp
+f webuse_zh.sthlp
+f weight_zh.sthlp
+f whatsnew10to11_zh.sthlp
+f whatsnew10_zh.sthlp
+f whatsnew11to12_zh.sthlp
+f whatsnew11_zh.sthlp

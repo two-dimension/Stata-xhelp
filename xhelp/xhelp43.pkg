@@ -1,0 +1,74 @@
+v 3
+d xhelp -- Tools to create and display translated help files
+d 
+d -xhelp- is an extension to the official -help- command, which provides 
+d tools to edit original help files into translated version and display 
+d them (or the original one when translated version not found).
+d 
+d KW: workflow
+d KW: help system
+d 
+d Requires: Stata version 9
+d
+d Version: 0.1
+d Distribution-Date: 2022-06-20
+d 
+d Author:  Yongyi Zeng (Xiamen University, PRC)
+d Support: zzyy@xmu.edu.cn
+d 
+
+* comments, not be displayed.
+* f lines name the files that comprise your package.
+* F can force a default-not-installed file to be install to sysdir.
+* help net
+
+f opts_exclusive_zh.sthlp
+f order_zh.sthlp
+f orientationstyle_zh.sthlp
+f orthog_zh.sthlp
+f outfile_zh.sthlp
+f outsheet_zh.sthlp
+f ovtest_zh.sthlp
+f palette_zh.sthlp
+f parse_dissim_zh.sthlp
+f parse_zh.sthlp
+f pause_zh.sthlp
+f pca_postestimation_zh.sthlp
+f pca_zh.sthlp
+f pcorr_zh.sthlp
+f pctile_zh.sthlp
+f pd_zh.sthlp
+f pergram_zh.sthlp
+f permute_zh.sthlp
+f piccomments_zh.sthlp
+f pinnable_zh.sthlp
+f pkcollapse_zh.sthlp
+f pkcross_zh.sthlp
+f pkequiv_zh.sthlp
+f pkexamine_zh.sthlp
+f pkshape_zh.sthlp
+f pksumm_zh.sthlp
+f pk_zh.sthlp
+f playsnd_zh.sthlp
+f play_option_zh.sthlp
+f plotregionstyle_zh.sthlp
+f plot_zh.sthlp
+f plugin_zh.sthlp
+f png_options_zh.sthlp
+f poisgof_zh.sthlp
+f poisson_postestimation_zh.sthlp
+f poisson_zh.sthlp
+f poivregress_zh.sthlp
+f pologit_zh.sthlp
+f popoisson_zh.sthlp
+f poregress_zh.sthlp
+f postestimation_commands_zh.sthlp
+f postest_zh.sthlp
+f postrtoe_zh.sthlp
+f post_zh.sthlp
+f power_cmh_zh.sthlp
+f power_cox_zh.sthlp
+f power_errors_zh.sthlp
+f power_exponential_zh.sthlp
+f power_logrank_cluster_zh.sthlp
+f power_logrank_zh.sthlp

@@ -1,0 +1,74 @@
+v 3
+d xhelp -- Tools to create and display translated help files
+d 
+d -xhelp- is an extension to the official -help- command, which provides 
+d tools to edit original help files into translated version and display 
+d them (or the original one when translated version not found).
+d 
+d KW: workflow
+d KW: help system
+d 
+d Requires: Stata version 9
+d
+d Version: 0.1
+d Distribution-Date: 2022-06-20
+d 
+d Author:  Yongyi Zeng (Xiamen University, PRC)
+d Support: zzyy@xmu.edu.cn
+d 
+
+* comments, not be displayed.
+* f lines name the files that comprise your package.
+* F can force a default-not-installed file to be install to sysdir.
+* help net
+
+f post_hausman_star_zh.ihlp
+f post_hausman_zh.ihlp
+f post_irt_common1_zh.ihlp
+f post_irt_common2_zh.ihlp
+f post_irt_special_zh.ihlp
+f post_lincom_zh.ihlp
+f post_linktest_zh.ihlp
+f post_lrtest2par_msg_zh.ihlp
+f post_lrtest2par_zh.ihlp
+f post_lrtest_star_msg2_zh.ihlp
+f post_lrtest_star_msg_zh.ihlp
+f post_lrtest_star_zh.ihlp
+f post_lrtest_twostep_msg_zh.ihlp
+f post_lrtest_twostep_zh.ihlp
+f post_lrtest_zh.ihlp
+f post_marginsplot_zh.ihlp
+f post_margins_zh.ihlp
+f post_mfx_zh.ihlp
+f post_nlcom_zh.ihlp
+f post_predictnl_zh.ihlp
+f post_pwcompare_zh.ihlp
+f post_suest_zh.ihlp
+f post_svy_estat_zh.ihlp
+f post_testnl_zh.ihlp
+f post_test_zh.ihlp
+f prefix_saving_option_zh.ihlp
+f pr_opt_zh.ihlp
+f pr_stub_zh.ihlp
+f pr_uncond_opt_zh.ihlp
+f pss_graphoptsdes_zh.ihlp
+f pss_graphopts_zh.ihlp
+f pss_iteroptsdes_zh.ihlp
+f pss_iteropts_zh.ihlp
+f pss_numlist_zh.ihlp
+f pss_otheropts_zh.ihlp
+f pss_reportoptsdes_zh.ihlp
+f pss_reportopts_zh.ihlp
+f pss_rresiterlist_zh.ihlp
+f pss_rresiter_sc_zh.ihlp
+f pss_rresoneprop_sc_zh.ihlp
+f pss_rrestablist_zh.ihlp
+f pss_rrestab_mac_zh.ihlp
+f pss_rrestab_mat_zh.ihlp
+f pss_rrestab_sc_zh.ihlp
+f pss_rrestest_mac_zh.ihlp
+f pss_rrestest_sc_zh.ihlp
+f pss_rrestwoprop_sc_zh.ihlp
+f pss_rrestwotest_sc_zh.ihlp
+f pss_taboptsdes_zh.ihlp
+f pss_testmainopts1_zh.ihlp

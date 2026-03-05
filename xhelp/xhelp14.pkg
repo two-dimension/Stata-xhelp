@@ -1,0 +1,74 @@
+v 3
+d xhelp -- Tools to create and display translated help files
+d 
+d -xhelp- is an extension to the official -help- command, which provides 
+d tools to edit original help files into translated version and display 
+d them (or the original one when translated version not found).
+d 
+d KW: workflow
+d KW: help system
+d 
+d Requires: Stata version 9
+d
+d Version: 0.1
+d Distribution-Date: 2022-06-20
+d 
+d Author:  Yongyi Zeng (Xiamen University, PRC)
+d Support: zzyy@xmu.edu.cn
+d 
+
+* comments, not be displayed.
+* f lines name the files that comprise your package.
+* F can force a default-not-installed file to be install to sysdir.
+* help net
+
+f exp_list_zh.sthlp
+f exp_zh.sthlp
+f extensions_zh.sthlp
+f factor_postestimation_zh.sthlp
+f factor_zh.sthlp
+f fastscroll_zh.sthlp
+f fcast_compute_zh.sthlp
+f fcast_dlg_zh.sthlp
+f fcast_graph_zh.sthlp
+f fcast_zh.sthlp
+f fcline_options_zh.sthlp
+f fdasave_zh.sthlp
+f filefilter_zh.sthlp
+f filename_zh.sthlp
+f file_zh.sthlp
+f fillin_zh.sthlp
+f findfile_zh.sthlp
+f findit_zh.sthlp
+f fitarea_options_zh.sthlp
+f fit_zh.sthlp
+f flavors_zh.sthlp
+f floatresults_zh.sthlp
+f floatwindows_zh.sthlp
+f fmm_betareg_zh.sthlp
+f fmm_cloglog_zh.sthlp
+f fmm_estat_eform_zh.sthlp
+f fmm_estat_lcmean_zh.sthlp
+f fmm_estat_lcprob_zh.sthlp
+f fmm_estimation_zh.sthlp
+f fmm_examples_zh.sthlp
+f fmm_glm_zh.sthlp
+f fmm_glossary_zh.sthlp
+f fmm_intreg_zh.sthlp
+f fmm_ivregress_zh.sthlp
+f fmm_logit_zh.sthlp
+f fmm_mlogit_zh.sthlp
+f fmm_nbreg_zh.sthlp
+f fmm_ologit_zh.sthlp
+f fmm_oprobit_zh.sthlp
+f fmm_pointmass_zh.sthlp
+f fmm_poisson_zh.sthlp
+f fmm_postestimation_zh.sthlp
+f fmm_probit_zh.sthlp
+f fmm_regress_zh.sthlp
+f fmm_streg_zh.sthlp
+f fmm_tobit_zh.sthlp
+f fmm_tpoisson_zh.sthlp
+f fmm_truncreg_zh.sthlp
+f fmm_zh.sthlp
+f fonts_zh.sthlp

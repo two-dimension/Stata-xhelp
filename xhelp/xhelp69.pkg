@@ -1,0 +1,74 @@
+v 3
+d xhelp -- Tools to create and display translated help files
+d 
+d -xhelp- is an extension to the official -help- command, which provides 
+d tools to edit original help files into translated version and display 
+d them (or the original one when translated version not found).
+d 
+d KW: workflow
+d KW: help system
+d 
+d Requires: Stata version 9
+d
+d Version: 0.1
+d Distribution-Date: 2022-06-20
+d 
+d Author:  Yongyi Zeng (Xiamen University, PRC)
+d Support: zzyy@xmu.edu.cn
+d 
+
+* comments, not be displayed.
+* f lines name the files that comprise your package.
+* F can force a default-not-installed file to be install to sysdir.
+* help net
+
+f f_ssc_zh.ihlp
+f f_ss_zh.ihlp
+f f_strcat_zh.ihlp
+f f_strdup_zh.ihlp
+f f_string_zh.ihlp
+f f_stritrim_zh.ihlp
+f f_strlen_zh.ihlp
+f f_strlower_zh.ihlp
+f f_strltrim_zh.ihlp
+f f_strmatch_zh.ihlp
+f f_strofreal_zh.ihlp
+f f_strpos_zh.ihlp
+f f_strproper_zh.ihlp
+f f_strreverse_zh.ihlp
+f f_strrpos_zh.ihlp
+f f_strrtrim_zh.ihlp
+f f_strtoname_zh.ihlp
+f f_strtrim_zh.ihlp
+f f_strupper_zh.ihlp
+f f_subinstr_zh.ihlp
+f f_subinword_zh.ihlp
+f f_substr_zh.ihlp
+f f_sum_zh.ihlp
+f f_sweep_zh.ihlp
+f f_s_zh.ihlp
+f f_tanh_zh.ihlp
+f f_tan_zh.ihlp
+f f_tc_zh.ihlp
+f f_tden_zh.ihlp
+f f_td_zh.ihlp
+f f_th_zh.ihlp
+f f_tin_zh.ihlp
+f f_tm_zh.ihlp
+f f_tobytes_zh.ihlp
+f f_tq_zh.ihlp
+f f_trace_zh.ihlp
+f f_trigamma_zh.ihlp
+f f_trunc_zh.ihlp
+f f_ttail_zh.ihlp
+f f_tukeyprob_zh.ihlp
+f f_twithin_zh.ihlp
+f f_tw_zh.ihlp
+f f_t_zh.ihlp
+f f_uchar_zh.ihlp
+f f_udstrlen_zh.ihlp
+f f_udsubstr_zh.ihlp
+f f_uisdigit_zh.ihlp
+f f_uisletter_zh.ihlp
+f f_ustrcompareex_zh.ihlp
+f f_ustrcompare_zh.ihlp

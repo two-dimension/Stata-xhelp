@@ -1,0 +1,74 @@
+v 3
+d xhelp -- Tools to create and display translated help files
+d 
+d -xhelp- is an extension to the official -help- command, which provides 
+d tools to edit original help files into translated version and display 
+d them (or the original one when translated version not found).
+d 
+d KW: workflow
+d KW: help system
+d 
+d Requires: Stata version 9
+d
+d Version: 0.1
+d Distribution-Date: 2022-06-20
+d 
+d Author:  Yongyi Zeng (Xiamen University, PRC)
+d Support: zzyy@xmu.edu.cn
+d 
+
+* comments, not be displayed.
+* f lines name the files that comprise your package.
+* F can force a default-not-installed file to be install to sysdir.
+* help net
+
+f meta_cefemethod_zh.ihlp
+f meta_estypebin_zh.ihlp
+f meta_estypecnt_zh.ihlp
+f meta_remethod_zh.ihlp
+f me_integration_opt_zh.ihlp
+f me_intmethod_table_zh.ihlp
+f me_vartype_opt_zh.ihlp
+f me_vartype_table_zh.ihlp
+f me_weight_opt_zh.ihlp
+f me_weight_remarks_zh.ihlp
+f missingok_iv_long_zh.ihlp
+f missingok_iv_short_zh.ihlp
+f missingok_long_zh.ihlp
+f missingok_short_zh.ihlp
+f mi_impute_uvopt_augment_zh.ihlp
+f mi_impute_uvopt_bootstrap_zh.ihlp
+f mi_impute_uvopt_conditional_zh.ihlp
+f mi_impute_uvopt_nolegend_zh.ihlp
+f mi_longvarnames_zh.ihlp
+f notes_cmmargins_zh.ihlp
+f notes_margins_zh.ihlp
+f opt_irt_display_zh.ihlp
+f opt_irt_int_zh.ihlp
+f opt_irt_model_zh.ihlp
+f opt_irt_nodb_zh.ihlp
+f opt_irt_report_zh.ihlp
+f opt_irt_vce_zh.ihlp
+f or_long_zh.ihlp
+f outcome_opt_zh.ihlp
+f penaltywt_long_zh.ihlp
+f penaltywt_short_zh.ihlp
+f playopt_desc_zh.ihlp
+f post_adjust1par_zh.ihlp
+f post_adjust1star_zh.ihlp
+f post_adjust1_zh.ihlp
+f post_adjust2par_zh.ihlp
+f post_adjust2star_zh.ihlp
+f post_adjust2_zh.ihlp
+f post_adjust3par_zh.ihlp
+f post_adjust3star_zh.ihlp
+f post_adjust3_zh.ihlp
+f post_contrast_zh.ihlp
+f post_estatic_zh.ihlp
+f post_estatsum_zh.ihlp
+f post_estatvce_zh.ihlp
+f post_estimates_zh.ihlp
+f post_forecast_star2_zh.ihlp
+f post_forecast_star_zh.ihlp
+f post_forecast_zh.ihlp
+f post_hausman_star2_zh.ihlp

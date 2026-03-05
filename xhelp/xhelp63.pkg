@@ -1,0 +1,74 @@
+v 3
+d xhelp -- Tools to create and display translated help files
+d 
+d -xhelp- is an extension to the official -help- command, which provides 
+d tools to edit original help files into translated version and display 
+d them (or the original one when translated version not found).
+d 
+d KW: workflow
+d KW: help system
+d 
+d Requires: Stata version 9
+d
+d Version: 0.1
+d Distribution-Date: 2022-06-20
+d 
+d Author:  Yongyi Zeng (Xiamen University, PRC)
+d Support: zzyy@xmu.edu.cn
+d 
+
+* comments, not be displayed.
+* f lines name the files that comprise your package.
+* F can force a default-not-installed file to be install to sysdir.
+* help net
+
+f folds_long_p_zh.ihlp
+f folds_long_zh.ihlp
+f folds_short_zh.ihlp
+f footnotes_inference_zh.ihlp
+f footnotes_iv_zh.ihlp
+f footnotes_po_zh.ihlp
+f for_footnote_zh.ihlp
+f for_long_zh.ihlp
+f for_short_zh.ihlp
+f fvvarlist2_zh.ihlp
+f fvvarlist_zh.ihlp
+f f_abbrev_zh.ihlp
+f f_abs_zh.ihlp
+f f_acosh_zh.ihlp
+f f_acos_zh.ihlp
+f f_asinh_zh.ihlp
+f f_asin_zh.ihlp
+f f_atan2_zh.ihlp
+f f_atanh_zh.ihlp
+f f_atan_zh.ihlp
+f f_autocode_zh.ihlp
+f f_betaden_zh.ihlp
+f f_binomialp_zh.ihlp
+f f_binomialtail_zh.ihlp
+f f_binomial_zh.ihlp
+f f_binormal_zh.ihlp
+f f_bofd_zh.ihlp
+f f_byteorder_zh.ihlp
+f f_cauchyden_zh.ihlp
+f f_cauchytail_zh.ihlp
+f f_cauchy_zh.ihlp
+f f_cdhms_zh.ihlp
+f f_ceil_zh.ihlp
+f f_char_zh.ihlp
+f f_chi2den_zh.ihlp
+f f_chi2tail_zh.ihlp
+f f_chi2_zh.ihlp
+f f_chms_zh.ihlp
+f f_cholesky_zh.ihlp
+f f_chop_zh.ihlp
+f f_clip_zh.ihlp
+f f_clock_zh.ihlp
+f f_cloglog_zh.ihlp
+f f_cmdyhms_zh.ihlp
+f f_cofc_zh.ihlp
+f f_cofd_zh.ihlp
+f f_coleqnumb_zh.ihlp
+f f_collatorlocale_zh.ihlp
+f f_collatorversion_zh.ihlp
+f f_colnfreeparms_zh.ihlp

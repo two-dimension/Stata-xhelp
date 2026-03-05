@@ -1,0 +1,74 @@
+v 3
+d xhelp -- Tools to create and display translated help files
+d 
+d -xhelp- is an extension to the official -help- command, which provides 
+d tools to edit original help files into translated version and display 
+d them (or the original one when translated version not found).
+d 
+d KW: workflow
+d KW: help system
+d 
+d Requires: Stata version 9
+d
+d Version: 0.1
+d Distribution-Date: 2022-06-20
+d 
+d Author:  Yongyi Zeng (Xiamen University, PRC)
+d Support: zzyy@xmu.edu.cn
+d 
+
+* comments, not be displayed.
+* f lines name the files that comprise your package.
+* F can force a default-not-installed file to be install to sysdir.
+* help net
+
+f pss_testmainopts2_zh.ihlp
+f pss_testmainopts3_zh.ihlp
+f pss_testtabcols_zh.ihlp
+f pss_twosamplesdes_zh.ihlp
+f pss_twotestmainopts1_zh.ihlp
+f pss_twotesttabcols_zh.ihlp
+f putexcela_align_opts_zh.ihlp
+f putexcela_bord_opts_zh.ihlp
+f putexcela_expt_opts_zh.ihlp
+f putexcela_fill_opt_zh.ihlp
+f putexcela_output_types_zh.ihlp
+f putexcela_text_opts_zh.ihlp
+f putexcel_alignopts_list_zh.ihlp
+f putexcel_align_opts_zh.ihlp
+f putexcel_bordopts_list_zh.ihlp
+f putexcel_bord_opts_zh.ihlp
+f putexcel_exptopts_list_zh.ihlp
+f putexcel_expt_opts_zh.ihlp
+f putexcel_fillopt_list_zh.ihlp
+f putexcel_fill_opt_zh.ihlp
+f putexcel_num_opt_zh.ihlp
+f putexcel_output_types_zh.ihlp
+f putexcel_setopts_list_zh.ihlp
+f putexcel_set_opts_zh.ihlp
+f putexcel_textopts_list_zh.ihlp
+f putexcel_text_opts_zh.ihlp
+f put_units_zh.ihlp
+f reestimate_short_zh.ihlp
+f regstats_margins_zh.ihlp
+f regstats_zh.ihlp
+f resample_long_zh.ihlp
+f robust_long_zh.ihlp
+f robust_short_zh.ihlp
+f rotate_criteria_table_zh.ihlp
+f selection_long_zh.ihlp
+f selection_short_zh.ihlp
+f sel_opts_long_p_zh.ihlp
+f sel_opts_long_zh.ihlp
+f sel_opts_short_zh.ihlp
+f sem_classnames_zh.ihlp
+f serule_long_p_zh.ihlp
+f serule_long_zh.ihlp
+f serule_short_zh.ihlp
+f shortdes-coeflegend_zh.ihlp
+f shortdes-displayoptall_zh.ihlp
+f shortdes-displayoptbayes_zh.ihlp
+f shortdes-displayopt_zh.ihlp
+f sp_normalize_des_zh.ihlp
+f sqrtlasso_opt_iv_long_zh.ihlp
+f sqrtlasso_opt_linear_long_zh.ihlp

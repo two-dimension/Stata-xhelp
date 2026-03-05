@@ -1,0 +1,74 @@
+v 3
+d xhelp -- Tools to create and display translated help files
+d 
+d -xhelp- is an extension to the official -help- command, which provides 
+d tools to edit original help files into translated version and display 
+d them (or the original one when translated version not found).
+d 
+d KW: workflow
+d KW: help system
+d 
+d Requires: Stata version 9
+d
+d Version: 0.1
+d Distribution-Date: 2022-06-20
+d 
+d Author:  Yongyi Zeng (Xiamen University, PRC)
+d Support: zzyy@xmu.edu.cn
+d 
+
+* comments, not be displayed.
+* f lines name the files that comprise your package.
+* F can force a default-not-installed file to be install to sysdir.
+* help net
+
+f f_ftail_zh.ihlp
+f f_f_zh.ihlp
+f f_gammaden_zh.ihlp
+f f_gammaptail_zh.ihlp
+f f_gammap_zh.ihlp
+f f_get_zh.ihlp
+f f_hadamard_zh.ihlp
+f f_halfyearly_zh.ihlp
+f f_halfyear_zh.ihlp
+f f_has_eprop_zh.ihlp
+f f_hhc_zh.ihlp
+f f_hh_zh.ihlp
+f f_hms_zh.ihlp
+f f_hofd_zh.ihlp
+f f_hours_zh.ihlp
+f f_hypergeometricp_zh.ihlp
+f f_hypergeometric_zh.ihlp
+f f_ibetatail_zh.ihlp
+f f_ibeta_zh.ihlp
+f f_igaussianden_zh.ihlp
+f f_igaussiantail_zh.ihlp
+f f_igaussian_zh.ihlp
+f f_indexnot_zh.ihlp
+f f_inlist_zh.ihlp
+f f_inrange_zh.ihlp
+f f_int_zh.ihlp
+f f_invbinomialtail_zh.ihlp
+f f_invbinomial_zh.ihlp
+f f_invcauchytail_zh.ihlp
+f f_invcauchy_zh.ihlp
+f f_invchi2tail_zh.ihlp
+f f_invchi2_zh.ihlp
+f f_invcloglog_zh.ihlp
+f f_invdunnettprob_zh.ihlp
+f f_invexponentialtail_zh.ihlp
+f f_invexponential_zh.ihlp
+f f_invftail_zh.ihlp
+f f_invf_zh.ihlp
+f f_invgammaptail_zh.ihlp
+f f_invgammap_zh.ihlp
+f f_invibetatail_zh.ihlp
+f f_invibeta_zh.ihlp
+f f_invigaussiantail_zh.ihlp
+f f_invigaussian_zh.ihlp
+f f_invlaplacetail_zh.ihlp
+f f_invlaplace_zh.ihlp
+f f_invlogistictail_zh.ihlp
+f f_invlogistic_zh.ihlp
+f f_invlogit_zh.ihlp
+f f_invnbinomialtail_zh.ihlp

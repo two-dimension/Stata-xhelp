@@ -1,0 +1,74 @@
+v 3
+d xhelp -- Tools to create and display translated help files
+d 
+d -xhelp- is an extension to the official -help- command, which provides 
+d tools to edit original help files into translated version and display 
+d them (or the original one when translated version not found).
+d 
+d KW: workflow
+d KW: help system
+d 
+d Requires: Stata version 9
+d
+d Version: 0.1
+d Distribution-Date: 2022-06-20
+d 
+d Author:  Yongyi Zeng (Xiamen University, PRC)
+d Support: zzyy@xmu.edu.cn
+d 
+
+* comments, not be displayed.
+* f lines name the files that comprise your package.
+* F can force a default-not-installed file to be install to sysdir.
+* help net
+
+f f_tanh_zh.sthlp
+f f_tan_zh.sthlp
+f f_tc_zh.sthlp
+f f_tden_zh.sthlp
+f f_td_zh.sthlp
+f f_th_zh.sthlp
+f f_tin_zh.sthlp
+f f_tm_zh.sthlp
+f f_tobytes_zh.sthlp
+f f_tq_zh.sthlp
+f f_trace_zh.sthlp
+f f_trigamma_zh.sthlp
+f f_ttail_zh.sthlp
+f f_tukeyprob_zh.sthlp
+f f_twithin_zh.sthlp
+f f_tw_zh.sthlp
+f f_t_zh.sthlp
+f f_uchar_zh.sthlp
+f f_udstrlen_zh.sthlp
+f f_udsubstr_zh.sthlp
+f f_uisdigit_zh.sthlp
+f f_uisletter_zh.sthlp
+f f_uniform_zh.sthlp
+f f_ustrcompare_zh.sthlp
+f f_ustrfix_zh.sthlp
+f f_ustrlen_zh.sthlp
+f f_ustrnormalize_zh.sthlp
+f f_ustrpos_zh.sthlp
+f f_ustrregexm_zh.sthlp
+f f_ustrreverse_zh.sthlp
+f f_ustrtoname_zh.sthlp
+f f_ustrto_zh.sthlp
+f f_ustrtrim_zh.sthlp
+f f_ustrunescape_zh.sthlp
+f f_ustrupper_zh.sthlp
+f f_ustrword_zh.sthlp
+f f_usubinstr_zh.sthlp
+f f_usubstr_zh.sthlp
+f f_vecdiag_zh.sthlp
+f f_vec_zh.sthlp
+f f_weekly_zh.sthlp
+f f_week_zh.sthlp
+f f_weibullden_zh.sthlp
+f f_weibullphden_zh.sthlp
+f f_weibullphtail_zh.sthlp
+f f_weibullph_zh.sthlp
+f f_weibulltail_zh.sthlp
+f f_weibull_zh.sthlp
+f f_wofd_zh.sthlp
+f f_wordbreaklocale_zh.sthlp

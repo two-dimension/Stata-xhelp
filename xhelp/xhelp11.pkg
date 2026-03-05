@@ -1,0 +1,74 @@
+v 3
+d xhelp -- Tools to create and display translated help files
+d 
+d -xhelp- is an extension to the official -help- command, which provides 
+d tools to edit original help files into translated version and display 
+d them (or the original one when translated version not found).
+d 
+d KW: workflow
+d KW: help system
+d 
+d Requires: Stata version 9
+d
+d Version: 0.1
+d Distribution-Date: 2022-06-20
+d 
+d Author:  Yongyi Zeng (Xiamen University, PRC)
+d Support: zzyy@xmu.edu.cn
+d 
+
+* comments, not be displayed.
+* f lines name the files that comprise your package.
+* F can force a default-not-installed file to be install to sysdir.
+* help net
+
+f dsge_postestimation_zh.sthlp
+f dsge_zh.sthlp
+f dslogit_zh.sthlp
+f dspoisson_zh.sthlp
+f dsregress_zh.sthlp
+f dstdize_zh.sthlp
+f ds_zh.sthlp
+f dtaverify_zh.sthlp
+f dtaversion_zh.sthlp
+f dta_113_zh.sthlp
+f dta_114_zh.sthlp
+f dta_115_zh.sthlp
+f dta_117_zh.sthlp
+f dta_119_zh.sthlp
+f dta_contents_zh.sthlp
+f dta_equal_zh.sthlp
+f dta_examples_zh.sthlp
+f dta_manuals_zh.sthlp
+f dta_zh.sthlp
+f duplicates_dlg_zh.sthlp
+f duplicates_zh.sthlp
+f dvech_postestimation_zh.sthlp
+f dvech_zh.sthlp
+f dydx_zh.sthlp
+f dynamic_intro_zh.sthlp
+f dynamic_tags_zh.sthlp
+f dyndoc_zh.sthlp
+f dyngen_zh.sthlp
+f dyntext_zh.sthlp
+f d_glossary_zh.sthlp
+f edit_zh.sthlp
+f eform_option_zh.sthlp
+f egen_zh.sthlp
+f eintreg_postestimation_zh.sthlp
+f eintreg_predict_zh.sthlp
+f eintreg_zh.sthlp
+f eivreg_postestimation_zh.sthlp
+f eivreg_zh.sthlp
+f elasticnet_zh.sthlp
+f encode_zh.sthlp
+f encodings_zh.sthlp
+f eoprobit_postestimation_zh.sthlp
+f eoprobit_predict_zh.sthlp
+f eoprobit_zh.sthlp
+f epitab_zh.sthlp
+f eprobit_postestimation_zh.sthlp
+f eprobit_predict_zh.sthlp
+f eprobit_zh.sthlp
+f eps_options_zh.sthlp
+f eq_zh.sthlp

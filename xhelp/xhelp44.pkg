@@ -1,0 +1,74 @@
+v 3
+d xhelp -- Tools to create and display translated help files
+d 
+d -xhelp- is an extension to the official -help- command, which provides 
+d tools to edit original help files into translated version and display 
+d them (or the original one when translated version not found).
+d 
+d KW: workflow
+d KW: help system
+d 
+d Requires: Stata version 9
+d
+d Version: 0.1
+d Distribution-Date: 2022-06-20
+d 
+d Author:  Yongyi Zeng (Xiamen University, PRC)
+d Support: zzyy@xmu.edu.cn
+d 
+
+* comments, not be displayed.
+* f lines name the files that comprise your package.
+* F can force a default-not-installed file to be install to sysdir.
+* help net
+
+f power_mcc_zh.sthlp
+f power_onecorrelation_zh.sthlp
+f power_onemean_cluster_zh.sthlp
+f power_onemean_zh.sthlp
+f power_oneproportion_cluster_zh.sthlp
+f power_oneproportion_zh.sthlp
+f power_oneprop_dlg_zh.sthlp
+f power_oneslope_zh.sthlp
+f power_onevariance_zh.sthlp
+f power_onevar_dlg_zh.sthlp
+f power_oneway_zh.sthlp
+f power_optgraph_zh.sthlp
+f power_opttable_zh.sthlp
+f power_pairedmeans_zh.sthlp
+f power_pairedm_dlg_zh.sthlp
+f power_pairedproportions_zh.sthlp
+f power_pairedpr_dlg_zh.sthlp
+f power_pcorr_zh.sthlp
+f power_repeated_zh.sthlp
+f power_rsquared_dlg_zh.sthlp
+f power_rsquared_zh.sthlp
+f power_trend_zh.sthlp
+f power_twocorrelations_zh.sthlp
+f power_twomeans_cluster_zh.sthlp
+f power_twomeans_zh.sthlp
+f power_twoproportions_cluster_zh.sthlp
+f power_twoproportions_zh.sthlp
+f power_twoprop_dlg_zh.sthlp
+f power_twovariances_zh.sthlp
+f power_twovar_dlg_zh.sthlp
+f power_twoway_zh.sthlp
+f power_usermethod_zh.sthlp
+f power_zh.sthlp
+f pperron_zh.sthlp
+f prais_postestimation_zh.sthlp
+f prais_zh.sthlp
+f prdocumented_zh.sthlp
+f precision_zh.sthlp
+f predictnl_zh.sthlp
+f predict_zh.sthlp
+f prefix_saving_option_zh.sthlp
+f prefix_zh.sthlp
+f preserve_zh.sthlp
+f prfunctions_zh.sthlp
+f printer_zh.sthlp
+f print_zh.sthlp
+f probit_postestimation_zh.sthlp
+f probit_zh.sthlp
+f procrustes_postestimation_zh.sthlp
+f procrustes_zh.sthlp

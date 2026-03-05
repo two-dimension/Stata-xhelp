@@ -1,0 +1,74 @@
+v 3
+d xhelp -- Tools to create and display translated help files
+d 
+d -xhelp- is an extension to the official -help- command, which provides 
+d tools to edit original help files into translated version and display 
+d them (or the original one when translated version not found).
+d 
+d KW: workflow
+d KW: help system
+d 
+d Requires: Stata version 9
+d
+d Version: 0.1
+d Distribution-Date: 2022-06-20
+d 
+d Author:  Yongyi Zeng (Xiamen University, PRC)
+d Support: zzyy@xmu.edu.cn
+d 
+
+* comments, not be displayed.
+* f lines name the files that comprise your package.
+* F can force a default-not-installed file to be install to sysdir.
+* help net
+
+f marker_label_options_zh.sthlp
+f marker_options_zh.sthlp
+f mark_zh.sthlp
+f matalabel_zh.sthlp
+f mata_clear_zh.sthlp
+f mata_describe_zh.sthlp
+f mata_drop_zh.sthlp
+f mata_help_zh.sthlp
+f mata_matsave_zh.sthlp
+f mata_memory_zh.sthlp
+f mata_mlib_zh.sthlp
+f mata_mosave_zh.sthlp
+f mata_rename_zh.sthlp
+f mata_set_zh.sthlp
+f mata_stata_zh.sthlp
+f mata_which_zh.sthlp
+f mata_zh.sthlp
+f math_functions_zh.sthlp
+f matlist_zh.sthlp
+f matmacfunc_zh.sthlp
+f matrix_accum_zh.sthlp
+f matrix_define_zh.sthlp
+f matrix_dissimilarity_zh.sthlp
+f matrix_dlg_zh.sthlp
+f matrix_eigenvalues_zh.sthlp
+f matrix_extraction_zh.sthlp
+f matrix_functions_zh.sthlp
+f matrix_makecns_zh.sthlp
+f matrix_operators_zh.sthlp
+f matrix_rowjoinbyname_zh.sthlp
+f matrix_rownames_zh.sthlp
+f matrix_score_zh.sthlp
+f matrix_subscripting_zh.sthlp
+f matrix_substitution_zh.sthlp
+f matrix_svd_zh.sthlp
+f matrix_symeigen_zh.sthlp
+f matrix_utility_zh.sthlp
+f matrix_zh.sthlp
+f matsize_zh.sthlp
+f mat_anova_example_zh.sthlp
+f mat_capp_zh.sthlp
+f mat_manova_example_zh.sthlp
+f mat_put_rr_zh.sthlp
+f maximize_zh.sthlp
+f mca_postestimation_plots_zh.sthlp
+f mca_postestimation_zh.sthlp
+f mca_zh.sthlp
+f mcc_zh.sthlp
+f mdslong_zh.sthlp
+f mdsmat_zh.sthlp

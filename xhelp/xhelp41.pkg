@@ -1,0 +1,74 @@
+v 3
+d xhelp -- Tools to create and display translated help files
+d 
+d -xhelp- is an extension to the official -help- command, which provides 
+d tools to edit original help files into translated version and display 
+d them (or the original one when translated version not found).
+d 
+d KW: workflow
+d KW: help system
+d 
+d Requires: Stata version 9
+d
+d Version: 0.1
+d Distribution-Date: 2022-06-20
+d 
+d Author:  Yongyi Zeng (Xiamen University, PRC)
+d Support: zzyy@xmu.edu.cn
+d 
+
+* comments, not be displayed.
+* f lines name the files that comprise your package.
+* F can force a default-not-installed file to be install to sysdir.
+* help net
+
+f mi_technical_zh.sthlp
+f mi_test_zh.sthlp
+f mi_update_zh.sthlp
+f mi_varying_zh.sthlp
+f mi_workflow_zh.sthlp
+f mi_xeq_zh.sthlp
+f mi_xtreg_note_zh.sthlp
+f mi_xxxset_zh.sthlp
+f mi_zh.sthlp
+f mkassert_zh.sthlp
+f mkdir_zh.sthlp
+f mkmat_zh.sthlp
+f mkspline_zh.sthlp
+f mleval_10_zh.sthlp
+f mleval_11_zh.sthlp
+f mleval_zh.sthlp
+f mlexp_postestimation_zh.sthlp
+f mlexp_zh.sthlp
+f mlmethod_10_zh.sthlp
+f mlmethod_11_zh.sthlp
+f mlmethod_zh.sthlp
+f mlogit_postestimation_zh.sthlp
+f mlogit_zh.sthlp
+f mlopts_zh.sthlp
+f ml_10_zh.sthlp
+f ml_11_zh.sthlp
+f ml_hold_zh.sthlp
+f ml_score_zh.sthlp
+f ml_zh.sthlp
+f modify_zh.sthlp
+f moptimize_11_zh.sthlp
+f moptobj_zh.sthlp
+f more_zh.sthlp
+f mprobit_postestimation_zh.sthlp
+f mprobit_zh.sthlp
+f mswitch_postestimation_zh.sthlp
+f mswitch_zh.sthlp
+f multivariate_zh.sthlp
+f mvencode_zh.sthlp
+f mvreg_postestimation_zh.sthlp
+f mvreg_zh.sthlp
+f mvtest_correlations_zh.sthlp
+f mvtest_covariances_zh.sthlp
+f mvtest_means_zh.sthlp
+f mvtest_normality_zh.sthlp
+f mvtest_zh.sthlp
+f mv_glossary_zh.sthlp
+f name_option_zh.sthlp
+f nbreg_postestimation_zh.sthlp
+f nbreg_zh.sthlp

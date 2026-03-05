@@ -1,0 +1,74 @@
+v 3
+d xhelp -- Tools to create and display translated help files
+d 
+d -xhelp- is an extension to the official -help- command, which provides 
+d tools to edit original help files into translated version and display 
+d them (or the original one when translated version not found).
+d 
+d KW: workflow
+d KW: help system
+d 
+d Requires: Stata version 9
+d
+d Version: 0.1
+d Distribution-Date: 2022-06-20
+d 
+d Author:  Yongyi Zeng (Xiamen University, PRC)
+d Support: zzyy@xmu.edu.cn
+d 
+
+* comments, not be displayed.
+* f lines name the files that comprise your package.
+* F can force a default-not-installed file to be install to sysdir.
+* help net
+
+f whatsnew12to13_zh.sthlp
+f whatsnew12_zh.sthlp
+f whatsnew13to14_zh.sthlp
+f whatsnew13_zh.sthlp
+f whatsnew14to15_zh.sthlp
+f whatsnew14_zh.sthlp
+f whatsnew15to16_zh.sthlp
+f whatsnew15_zh.sthlp
+f whatsnew6to7_zh.sthlp
+f whatsnew6_zh.sthlp
+f whatsnew7to8_zh.sthlp
+f whatsnew7_zh.sthlp
+f whatsnew8to9_zh.sthlp
+f whatsnew8_zh.sthlp
+f whatsnew9to10_zh.sthlp
+f whatsnew9_zh.sthlp
+f whatsnew_zh.sthlp
+f which_zh.sthlp
+f while_zh.sthlp
+f who_zh.sthlp
+f window_fopen_zh.sthlp
+f window_manage_zh.sthlp
+f window_menu_zh.sthlp
+f window_programming_zh.sthlp
+f window_push_zh.sthlp
+f window_stopbox_zh.sthlp
+f winfonts_zh.sthlp
+f wntestb_zh.sthlp
+f wntestq_zh.sthlp
+f xcorr_zh.sthlp
+f xhelp.sthlp
+f xhelp_zh.sthlp
+f xi_zh.sthlp
+f xmlsave_zh.sthlp
+f xpoivregress_zh.sthlp
+f xpologit_zh.sthlp
+f xpopoisson_zh.sthlp
+f xporegress_zh.sthlp
+f xpose_zh.sthlp
+f xptheme_zh.sthlp
+f xtabond_postestimation_zh.sthlp
+f xtabond_zh.sthlp
+f xtcloglog_postestimation_zh.sthlp
+f xtcloglog_zh.sthlp
+f xtcointtest_zh.sthlp
+f xtcorr_zh.sthlp
+f xtdata_zh.sthlp
+f xtdescribe_zh.sthlp
+f xtdpdsys_postestimation_zh.sthlp
+f xtdpdsys_zh.sthlp

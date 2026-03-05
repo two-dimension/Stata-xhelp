@@ -1,0 +1,74 @@
+v 3
+d xhelp -- Tools to create and display translated help files
+d 
+d -xhelp- is an extension to the official -help- command, which provides 
+d tools to edit original help files into translated version and display 
+d them (or the original one when translated version not found).
+d 
+d KW: workflow
+d KW: help system
+d 
+d Requires: Stata version 9
+d
+d Version: 0.1
+d Distribution-Date: 2022-06-20
+d 
+d Author:  Yongyi Zeng (Xiamen University, PRC)
+d Support: zzyy@xmu.edu.cn
+d 
+
+* comments, not be displayed.
+* f lines name the files that comprise your package.
+* F can force a default-not-installed file to be install to sysdir.
+* help net
+
+f mf_st_numscalar_zh.sthlp
+f mf_st_nvar_zh.sthlp
+f mf_st_rclear_zh.sthlp
+f mf_st_store_zh.sthlp
+f mf_st_subview_zh.sthlp
+f mf_st_tempname_zh.sthlp
+f mf_st_tsrevar_zh.sthlp
+f mf_st_updata_zh.sthlp
+f mf_st_varformat_zh.sthlp
+f mf_st_varindex_zh.sthlp
+f mf_st_varname_zh.sthlp
+f mf_st_varrename_zh.sthlp
+f mf_st_vartype_zh.sthlp
+f mf_st_viewvars_zh.sthlp
+f mf_st_view_zh.sthlp
+f mf_st_vlexists_zh.sthlp
+f mf_subdiagget_zh.sthlp
+f mf_subinstr_zh.sthlp
+f mf_sublowertriangle_zh.sthlp
+f mf_substr_zh.sthlp
+f mf_sum_zh.sthlp
+f mf_svd_zh.sthlp
+f mf_svsolve_zh.sthlp
+f mf_swap_zh.sthlp
+f mf_timer_zh.sthlp
+f mf_toeplitzsolve_zh.sthlp
+f mf_toeplitz_zh.sthlp
+f mf_tokenget_zh.sthlp
+f mf_tokens_zh.sthlp
+f mf_trace_abbav_zh.sthlp
+f mf_trace_avbv_zh.sthlp
+f mf_trace_zh.sthlp
+f mf_transposeonly_zh.sthlp
+f mf_trunc_zh.sthlp
+f mf_uchar_zh.sthlp
+f mf_ucmpsdensity_zh.sthlp
+f mf_udstrlen_zh.sthlp
+f mf_udsubstr_zh.sthlp
+f mf_uniqrows_zh.sthlp
+f mf_unitcircle_zh.sthlp
+f mf_unlink_zh.sthlp
+f mf_urlencode_zh.sthlp
+f mf_ustrcompare_zh.sthlp
+f mf_ustrfix_zh.sthlp
+f mf_ustrlen_zh.sthlp
+f mf_ustrnormalize_zh.sthlp
+f mf_ustrpos_zh.sthlp
+f mf_ustrregex_zh.sthlp
+f mf_ustrreverse_zh.sthlp
+f mf_ustrsplit_zh.sthlp

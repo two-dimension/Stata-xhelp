@@ -1,0 +1,74 @@
+v 3
+d xhelp -- Tools to create and display translated help files
+d 
+d -xhelp- is an extension to the official -help- command, which provides 
+d tools to edit original help files into translated version and display 
+d them (or the original one when translated version not found).
+d 
+d KW: workflow
+d KW: help system
+d 
+d Requires: Stata version 9
+d
+d Version: 0.1
+d Distribution-Date: 2022-06-20
+d 
+d Author:  Yongyi Zeng (Xiamen University, PRC)
+d Support: zzyy@xmu.edu.cn
+d 
+
+* comments, not be displayed.
+* f lines name the files that comprise your package.
+* F can force a default-not-installed file to be install to sysdir.
+* help net
+
+f f_colnumb_zh.ihlp
+f f_colsof_zh.ihlp
+f f_comb_zh.ihlp
+f f_cond_zh.ihlp
+f f_corr_zh.ihlp
+f f_cosh_zh.ihlp
+f f_cos_zh.ihlp
+f f_c_zh.ihlp
+f f_daily_zh.ihlp
+f f_date_zh.ihlp
+f f_day_zh.ihlp
+f f_det_zh.ihlp
+f f_dgammapdada_zh.ihlp
+f f_dgammapdadx_zh.ihlp
+f f_dgammapda_zh.ihlp
+f f_dgammapdxdx_zh.ihlp
+f f_dgammapdx_zh.ihlp
+f f_dhms_zh.ihlp
+f f_diag0cnt_zh.ihlp
+f f_diag_zh.ihlp
+f f_digamma_zh.ihlp
+f f_dofb_zh.ihlp
+f f_dofc_zh.ihlp
+f f_dofh_zh.ihlp
+f f_dofm_zh.ihlp
+f f_dofq_zh.ihlp
+f f_dofw_zh.ihlp
+f f_dofy_zh.ihlp
+f f_dow_zh.ihlp
+f f_doy_zh.ihlp
+f f_dunnettprob_zh.ihlp
+f f_d_zh.ihlp
+f f_el_zh.ihlp
+f f_epsdouble_zh.ihlp
+f f_epsfloat_zh.ihlp
+f f_expm1_zh.ihlp
+f f_exponentialden_zh.ihlp
+f f_exponentialtail_zh.ihlp
+f f_exponential_zh.ihlp
+f f_exp_zh.ihlp
+f f_e_zh.ihlp
+f f_fden_zh.ihlp
+f f_fileexists_zh.ihlp
+f f_filereaderror_zh.ihlp
+f f_fileread_zh.ihlp
+f f_filewrite_zh.ihlp
+f f_float_zh.ihlp
+f f_floor_zh.ihlp
+f f_fmtwidth_zh.ihlp
+f f_frval_zh.ihlp

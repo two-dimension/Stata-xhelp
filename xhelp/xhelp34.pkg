@@ -1,0 +1,74 @@
+v 3
+d xhelp -- Tools to create and display translated help files
+d 
+d -xhelp- is an extension to the official -help- command, which provides 
+d tools to edit original help files into translated version and display 
+d them (or the original one when translated version not found).
+d 
+d KW: workflow
+d KW: help system
+d 
+d Requires: Stata version 9
+d
+d Version: 0.1
+d Distribution-Date: 2022-06-20
+d 
+d Author:  Yongyi Zeng (Xiamen University, PRC)
+d Support: zzyy@xmu.edu.cn
+d 
+
+* comments, not be displayed.
+* f lines name the files that comprise your package.
+* F can force a default-not-installed file to be install to sysdir.
+* help net
+
+f meta_update_zh.sthlp
+f meta_zh.sthlp
+f metobit_postestimation_zh.sthlp
+f metobit_zh.sthlp
+f me_estat_sd_zh.sthlp
+f me_estat_wcorrelation_zh.sthlp
+f me_glossary_zh.sthlp
+f me_zh.sthlp
+f mfp_postestimation_zh.sthlp
+f mfp_zh.sthlp
+f mfx_zh.sthlp
+f mf_abbrev_zh.sthlp
+f mf_abs_zh.sthlp
+f mf_adosubdir_zh.sthlp
+f mf_all_zh.sthlp
+f mf_arfimaacf_zh.sthlp
+f mf_arfimapsdensity_zh.sthlp
+f mf_args_zh.sthlp
+f mf_asarray_zh.sthlp
+f mf_ascii_zh.sthlp
+f mf_assert_zh.sthlp
+f mf_associativearray_zh.sthlp
+f mf_blockdiag_zh.sthlp
+f mf_bufio_zh.sthlp
+f mf_byteorder_zh.sthlp
+f mf_callersversion_zh.sthlp
+f mf_cat_zh.sthlp
+f mf_chdir_zh.sthlp
+f mf_cholesky_zh.sthlp
+f mf_cholinv_zh.sthlp
+f mf_cholsolve_zh.sthlp
+f mf_comb_zh.sthlp
+f mf_cond_zh.sthlp
+f mf_conj_zh.sthlp
+f mf_corr_zh.sthlp
+f mf_crossdev_zh.sthlp
+f mf_cross_zh.sthlp
+f mf_cvpermute_zh.sthlp
+f mf_c_cap_zh.sthlp
+f mf_c_lc_zh.sthlp
+f mf_c_zh.sthlp
+f mf_date_zh.sthlp
+f mf_deriv_zh.sthlp
+f mf_designmatrix_zh.sthlp
+f mf_det_zh.sthlp
+f mf_diag0cnt_zh.sthlp
+f mf_diagonal_zh.sthlp
+f mf_diag_zh.sthlp
+f mf_direxists_zh.sthlp
+f mf_direxternal_zh.sthlp

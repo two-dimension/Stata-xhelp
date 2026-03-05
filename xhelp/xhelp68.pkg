@@ -1,0 +1,74 @@
+v 3
+d xhelp -- Tools to create and display translated help files
+d 
+d -xhelp- is an extension to the official -help- command, which provides 
+d tools to edit original help files into translated version and display 
+d them (or the original one when translated version not found).
+d 
+d KW: workflow
+d KW: help system
+d 
+d Requires: Stata version 9
+d
+d Version: 0.1
+d Distribution-Date: 2022-06-20
+d 
+d Author:  Yongyi Zeng (Xiamen University, PRC)
+d Support: zzyy@xmu.edu.cn
+d 
+
+* comments, not be displayed.
+* f lines name the files that comprise your package.
+* F can force a default-not-installed file to be install to sysdir.
+* help net
+
+f f_nt_zh.ihlp
+f f_nullmat_zh.ihlp
+f f_plural_zh.ihlp
+f f_poissonp_zh.ihlp
+f f_poissontail_zh.ihlp
+f f_poisson_zh.ihlp
+f f_qofd_zh.ihlp
+f f_quarterly_zh.ihlp
+f f_quarter_zh.ihlp
+f f_rbeta_zh.ihlp
+f f_rbinomial_zh.ihlp
+f f_rcauchy_zh.ihlp
+f f_rchi2_zh.ihlp
+f f_real_zh.ihlp
+f f_recode_zh.ihlp
+f f_regexm_zh.ihlp
+f f_reldif_zh.ihlp
+f f_replay_zh.ihlp
+f f_return_zh.ihlp
+f f_rexponential_zh.ihlp
+f f_rgamma_zh.ihlp
+f f_rgeometric_zh.ihlp
+f f_rhypergeometric_zh.ihlp
+f f_rigaussian_zh.ihlp
+f f_rlaplace_zh.ihlp
+f f_rlogistic_zh.ihlp
+f f_rnbinomial_zh.ihlp
+f f_rnormal_zh.ihlp
+f f_round_zh.ihlp
+f f_roweqnumb_zh.ihlp
+f f_rownfreeparms_zh.ihlp
+f f_rownumb_zh.ihlp
+f f_rowsof_zh.ihlp
+f f_rpareto_zh.ihlp
+f f_rpoisson_zh.ihlp
+f f_rt_zh.ihlp
+f f_runiformint_zh.ihlp
+f f_runiform_zh.ihlp
+f f_rweibullph_zh.ihlp
+f f_rweibull_zh.ihlp
+f f_r_zh.ihlp
+f f_scalar_zh.ihlp
+f f_seconds_zh.ihlp
+f f_sign_zh.ihlp
+f f_sinh_zh.ihlp
+f f_sin_zh.ihlp
+f f_smallestdouble_zh.ihlp
+f f_soundex_nara_zh.ihlp
+f f_soundex_zh.ihlp
+f f_sqrt_zh.ihlp

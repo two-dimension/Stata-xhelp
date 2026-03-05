@@ -1,0 +1,74 @@
+v 3
+d xhelp -- Tools to create and display translated help files
+d 
+d -xhelp- is an extension to the official -help- command, which provides 
+d tools to edit original help files into translated version and display 
+d them (or the original one when translated version not found).
+d 
+d KW: workflow
+d KW: help system
+d 
+d Requires: Stata version 9
+d
+d Version: 0.1
+d Distribution-Date: 2022-06-20
+d 
+d Author:  Yongyi Zeng (Xiamen University, PRC)
+d Support: zzyy@xmu.edu.cn
+d 
+
+* comments, not be displayed.
+* f lines name the files that comprise your package.
+* F can force a default-not-installed file to be install to sysdir.
+* help net
+
+f gsem_path_notation_extensions_zh.sthlp
+f gsem_postestimation_zh.sthlp
+f gsem_predict_zh.sthlp
+f gsem_reporting_options_zh.sthlp
+f gsort_zh.sthlp
+f gs_fileinfo_zh.sthlp
+f gs_filetype_zh.sthlp
+f gs_graphinfo_zh.sthlp
+f gs_stat_zh.sthlp
+f gs_zh.sthlp
+f guide_zh.sthlp
+f g_glossary_zh.sthlp
+f hadimvo_zh.sthlp
+f hausman_zh.sthlp
+f haver_zh.sthlp
+f heckman_postestimation_zh.sthlp
+f heckman_zh.sthlp
+f heckoprobit_postestimation_zh.sthlp
+f heckoprobit_zh.sthlp
+f heckpoisson_postestimation_zh.sthlp
+f heckpoisson_zh.sthlp
+f heckprobit_postestimation_zh.sthlp
+f heckprobit_zh.sthlp
+f help_advice_zh.sthlp
+f help_zh.sthlp
+f hetoprobit_postestimation_zh.sthlp
+f hetoprobit_zh.sthlp
+f hetprobit_postestimation_zh.sthlp
+f hetprobit_zh.sthlp
+f hetregress_postestimation_zh.sthlp
+f hetregress_zh.sthlp
+f hexdump_zh.sthlp
+f heywood_case_zh.sthlp
+f hilite_zh.sthlp
+f histogram_zh.sthlp
+f hotel_zh.sthlp
+f hreg_zh.sthlp
+f hsearch_zh.sthlp
+f html2docx_zh.sthlp
+f h_zh.sthlp
+f icc_zh.sthlp
+f icd10cm_zh.sthlp
+f icd10pcs_zh.sthlp
+f icd10_zh.sthlp
+f icd9p_zh.sthlp
+f icd9_13_zh.sthlp
+f icd9_zh.sthlp
+f icd_zh.sthlp
+f icmap_zh.sthlp
+f ifcmd_zh.sthlp

@@ -1,0 +1,74 @@
+v 3
+d xhelp -- Tools to create and display translated help files
+d 
+d -xhelp- is an extension to the official -help- command, which provides 
+d tools to edit original help files into translated version and display 
+d them (or the original one when translated version not found).
+d 
+d KW: workflow
+d KW: help system
+d 
+d Requires: Stata version 9
+d
+d Version: 0.1
+d Distribution-Date: 2022-06-20
+d 
+d Author:  Yongyi Zeng (Xiamen University, PRC)
+d Support: zzyy@xmu.edu.cn
+d 
+
+* comments, not be displayed.
+* f lines name the files that comprise your package.
+* F can force a default-not-installed file to be install to sysdir.
+* help net
+
+f xttobit_postestimation_zh.sthlp
+f xttobit_zh.sthlp
+f xtunitroot_zh.sthlp
+f xt_glossary_zh.sthlp
+f xt_vce_options_zh.sthlp
+f xt_zh.sthlp
+f zinb_postestimation_zh.sthlp
+f zinb_zh.sthlp
+f zioprobit_postestimation_zh.sthlp
+f zioprobit_zh.sthlp
+f zipfile_zh.sthlp
+f zip_postestimation_zh.sthlp
+f zip_zh.sthlp
+f ztest_zh.sthlp
+f ztnb_postestimation_zh.sthlp
+f ztnb_zh.sthlp
+f ztp_postestimation_zh.sthlp
+f ztp_zh.sthlp
+f alllambdas_long_p_zh.ihlp
+f alllambdas_long_zh.ihlp
+f alllambdas_short_zh.ihlp
+f asmprobit_options_model_zh.ihlp
+f bayesecmd_opts_zh.ihlp
+f bayesecmd_reportopts_special_zh.ihlp
+f bayesecmd_reportopts_zh.ihlp
+f bayesme_display_zh.ihlp
+f bayesme_reportopts2_zh.ihlp
+f bayesme_reportopts_zh.ihlp
+f bayesmh_adaptoptsdes_zh.ihlp
+f bayesmh_adaptopts_zh.ihlp
+f bayesmh_advancedoptsdes_zh.ihlp
+f bayesmh_advancedopts_zh.ihlp
+f bayesmh_batchoptdes_zh.ihlp
+f bayesmh_batchopt_zh.ihlp
+f bayesmh_blockoptsdes_zh.ihlp
+f bayesmh_blockopts_zh.ihlp
+f bayesmh_chainsdetailoptsdes_zh.ihlp
+f bayesmh_corrlagbatch_zh.ihlp
+f bayesmh_corroptsdes_zh.ihlp
+f bayesmh_corropts_zh.ihlp
+f bayesmh_corrtolbatch_zh.ihlp
+f bayesmh_credintoptsdes_zh.ihlp
+f bayesmh_displayoptsdes_zh.ihlp
+f bayesmh_eform_zh.ihlp
+f bayesmh_initoptsdes_zh.ihlp
+f bayesmh_initopts_zh.ihlp
+f bayesmh_nchainsoptdes_zh.ihlp
+f bayesmh_prioroptsdes_zh.ihlp
+f bayesmh_prioropts_zh.ihlp
+f bayesmh_reportopts_zh.ihlp

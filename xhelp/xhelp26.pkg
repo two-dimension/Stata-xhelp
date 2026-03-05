@@ -1,0 +1,74 @@
+v 3
+d xhelp -- Tools to create and display translated help files
+d 
+d -xhelp- is an extension to the official -help- command, which provides 
+d tools to edit original help files into translated version and display 
+d them (or the original one when translated version not found).
+d 
+d KW: workflow
+d KW: help system
+d 
+d Requires: Stata version 9
+d
+d Version: 0.1
+d Distribution-Date: 2022-06-20
+d 
+d Author:  Yongyi Zeng (Xiamen University, PRC)
+d Support: zzyy@xmu.edu.cn
+d 
+
+* comments, not be displayed.
+* f lines name the files that comprise your package.
+* F can force a default-not-installed file to be install to sysdir.
+* help net
+
+f if_zh.sthlp
+f iis_zh.sthlp
+f immed_zh.sthlp
+f import_dbase_zh.sthlp
+f import_delimited_zh.sthlp
+f import_excel_zh.sthlp
+f import_fred_zh.sthlp
+f import_haver_zh.sthlp
+f import_sasxport5_zh.sthlp
+f import_sasxport8_zh.sthlp
+f import_sasxport_zh.sthlp
+f import_sas_zh.sthlp
+f import_shp_zh.sthlp
+f import_spss_zh.sthlp
+f import_zh.sthlp
+f impute_zh.sthlp
+f include_bitmap_zh.sthlp
+f include_zh.sthlp
+f infile1_zh.sthlp
+f infile2_zh.sthlp
+f infile_dlg_zh.sthlp
+f infile_zh.sthlp
+f infix_zh.sthlp
+f input_zh.sthlp
+f insheet_zh.sthlp
+f insobs_zh.sthlp
+f inspect_zh.sthlp
+f intensitystyle_zh.sthlp
+f inten_zh.sthlp
+f interface_zh.sthlp
+f internet_zh.sthlp
+f interval_zh.sthlp
+f intreg_postestimation_zh.sthlp
+f intreg_zh.sthlp
+f in_zh.sthlp
+f ipolate_zh.sthlp
+f irf_add_zh.sthlp
+f irf_cgraph_zh.sthlp
+f irf_create_zh.sthlp
+f irf_ctable_zh.sthlp
+f irf_describe_zh.sthlp
+f irf_dlg_zh.sthlp
+f irf_drop_zh.sthlp
+f irf_graph_zh.sthlp
+f irf_ograph_zh.sthlp
+f irf_rename_zh.sthlp
+f irf_set_zh.sthlp
+f irf_table_zh.sthlp
+f irf_zh.sthlp
+f irtgraph_icc_zh.sthlp

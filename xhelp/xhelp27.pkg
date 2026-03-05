@@ -1,0 +1,74 @@
+v 3
+d xhelp -- Tools to create and display translated help files
+d 
+d -xhelp- is an extension to the official -help- command, which provides 
+d tools to edit original help files into translated version and display 
+d them (or the original one when translated version not found).
+d 
+d KW: workflow
+d KW: help system
+d 
+d Requires: Stata version 9
+d
+d Version: 0.1
+d Distribution-Date: 2022-06-20
+d 
+d Author:  Yongyi Zeng (Xiamen University, PRC)
+d Support: zzyy@xmu.edu.cn
+d 
+
+* comments, not be displayed.
+* f lines name the files that comprise your package.
+* F can force a default-not-installed file to be install to sysdir.
+* help net
+
+f irtgraph_iif_zh.sthlp
+f irtgraph_tcc_zh.sthlp
+f irtgraph_tif_zh.sthlp
+f irtgraph_zh.sthlp
+f irt_1pl_postestimation_zh.sthlp
+f irt_1pl_zh.sthlp
+f irt_2pl_postestimation_zh.sthlp
+f irt_2pl_zh.sthlp
+f irt_3pl_postestimation_zh.sthlp
+f irt_3pl_zh.sthlp
+f irt_constraints_zh.sthlp
+f irt_control_panel_zh.sthlp
+f irt_glossary_zh.sthlp
+f irt_grm_postestimation_zh.sthlp
+f irt_grm_zh.sthlp
+f irt_group_postestimation_zh.sthlp
+f irt_group_zh.sthlp
+f irt_hybrid_postestimation_zh.sthlp
+f irt_hybrid_zh.sthlp
+f irt_nrm_postestimation_zh.sthlp
+f irt_nrm_zh.sthlp
+f irt_pcm_postestimation_zh.sthlp
+f irt_pcm_zh.sthlp
+f irt_rsm_postestimation_zh.sthlp
+f irt_rsm_zh.sthlp
+f irt_zh.sthlp
+f ir_zh.sthlp
+f isid_zh.sthlp
+f is_svy_zh.sthlp
+f ivpoisson_postestimation_zh.sthlp
+f ivpoisson_zh.sthlp
+f ivprobit_postestimation_zh.sthlp
+f ivprobit_zh.sthlp
+f ivregress_postestimation_zh.sthlp
+f ivregress_zh.sthlp
+f ivreg_zh.sthlp
+f ivtobit_postestimation_zh.sthlp
+f ivtobit_zh.sthlp
+f jackknife_mse_zh.sthlp
+f jackknife_options_zh.sthlp
+f jackknife_postestimation_zh.sthlp
+f jackknife_zh.sthlp
+f javacall_zh.sthlp
+f java_intro_zh.sthlp
+f java_utilities_zh.sthlp
+f jkstat_zh.sthlp
+f joinby_zh.sthlp
+f jpg_options_zh.sthlp
+f justificationstyle_zh.sthlp
+f j_asf_zh.sthlp

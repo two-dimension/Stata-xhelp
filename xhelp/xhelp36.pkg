@@ -1,0 +1,74 @@
+v 3
+d xhelp -- Tools to create and display translated help files
+d 
+d -xhelp- is an extension to the official -help- command, which provides 
+d tools to edit original help files into translated version and display 
+d them (or the original one when translated version not found).
+d 
+d KW: workflow
+d KW: help system
+d 
+d Requires: Stata version 9
+d
+d Version: 0.1
+d Distribution-Date: 2022-06-20
+d 
+d Author:  Yongyi Zeng (Xiamen University, PRC)
+d Support: zzyy@xmu.edu.cn
+d 
+
+* comments, not be displayed.
+* f lines name the files that comprise your package.
+* F can force a default-not-installed file to be install to sysdir.
+* help net
+
+f mf_issymmetric_zh.sthlp
+f mf_isview_zh.sthlp
+f mf_i_zh.sthlp
+f mf_j_zh.sthlp
+f mf_kmatrix_zh.sthlp
+f mf_lapack_zh.sthlp
+f mf_linearprogram_zh.sthlp
+f mf_liststruct_zh.sthlp
+f mf_lmatrix_zh.sthlp
+f mf_logit_zh.sthlp
+f mf_lowertriangle_zh.sthlp
+f mf_lud_zh.sthlp
+f mf_luinv_zh.sthlp
+f mf_lusolve_zh.sthlp
+f mf_makesymmetric_zh.sthlp
+f mf_matexpsym_zh.sthlp
+f mf_matpowersym_zh.sthlp
+f mf_mean_zh.sthlp
+f mf_mindouble_zh.sthlp
+f mf_minindex_zh.sthlp
+f mf_minmax_zh.sthlp
+f mf_missingof_zh.sthlp
+f mf_missing_zh.sthlp
+f mf_mod_zh.sthlp
+f mf_moptimize_init_mlopts_zh.sthlp
+f mf_moptimize_zh.sthlp
+f mf_more_zh.sthlp
+f mf_mvnormal_zh.sthlp
+f mf_normal_zh.sthlp
+f mf_norm_zh.sthlp
+f mf_optimize_zh.sthlp
+f mf_panelsetup_zh.sthlp
+f mf_panelsum_zh.sthlp
+f mf_pathjoin_zh.sthlp
+f mf_pdf_zh.sthlp
+f mf_pinv_zh.sthlp
+f mf_polyeval_zh.sthlp
+f mf_printf_zh.sthlp
+f mf_qrd_zh.sthlp
+f mf_qrinv_zh.sthlp
+f mf_qrsolve_zh.sthlp
+f mf_quadcross_zh.sthlp
+f mf_quadrature_zh.sthlp
+f mf_range_zh.sthlp
+f mf_rank_zh.sthlp
+f mf_rdirichlet_zh.sthlp
+f mf_regex_zh.sthlp
+f mf_reldif_zh.sthlp
+f mf_re_zh.sthlp
+f mf_robust_zh.sthlp

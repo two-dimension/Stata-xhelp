@@ -1,0 +1,74 @@
+v 3
+d xhelp -- Tools to create and display translated help files
+d 
+d -xhelp- is an extension to the official -help- command, which provides 
+d tools to edit original help files into translated version and display 
+d them (or the original one when translated version not found).
+d 
+d KW: workflow
+d KW: help system
+d 
+d Requires: Stata version 9
+d
+d Version: 0.1
+d Distribution-Date: 2022-06-20
+d 
+d Author:  Yongyi Zeng (Xiamen University, PRC)
+d Support: zzyy@xmu.edu.cn
+d 
+
+* comments, not be displayed.
+* f lines name the files that comprise your package.
+* F can force a default-not-installed file to be install to sysdir.
+* help net
+
+f lroc_zh.sthlp
+f lrtest_zh.sthlp
+f lsens_zh.sthlp
+f lstat_zh.sthlp
+f lstretch_zh.sthlp
+f ltable_zh.sthlp
+f lv_zh.sthlp
+f m1_ado_zh.sthlp
+f m1_first_zh.sthlp
+f m1_help_zh.sthlp
+f m1_how_zh.sthlp
+f m1_interactive_zh.sthlp
+f m1_intro_zh.sthlp
+f m1_lapack_zh.sthlp
+f m1_limits_zh.sthlp
+f m1_naming_zh.sthlp
+f m1_permutation_zh.sthlp
+f m1_returnedargs_zh.sthlp
+f m1_source_zh.sthlp
+f m1_tolerance_zh.sthlp
+f m2_break_zh.sthlp
+f m2_class_zh.sthlp
+f m2_comments_zh.sthlp
+f m2_continue_zh.sthlp
+f m2_declarations_zh.sthlp
+f m2_doppelganger_zh.sthlp
+f m2_do_zh.sthlp
+f m2_errors_zh.sthlp
+f m2_exp_zh.sthlp
+f m2_for_zh.sthlp
+f m2_ftof_zh.sthlp
+f m2_goto_zh.sthlp
+f m2_if_zh.sthlp
+f m2_intro_zh.sthlp
+f m2_optargs_zh.sthlp
+f m2_op_arith_zh.sthlp
+f m2_op_assignment_zh.sthlp
+f m2_op_colon_zh.sthlp
+f m2_op_conditional_zh.sthlp
+f m2_op_increment_zh.sthlp
+f m2_op_join_zh.sthlp
+f m2_op_kronecker_zh.sthlp
+f m2_op_logical_zh.sthlp
+f m2_op_range_zh.sthlp
+f m2_op_transpose_zh.sthlp
+f m2_pointers_zh.sthlp
+f m2_pragma_zh.sthlp
+f m2_reswords_zh.sthlp
+f m2_return_zh.sthlp
+f m2_semicolons_zh.sthlp

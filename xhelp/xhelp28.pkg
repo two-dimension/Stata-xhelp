@@ -1,0 +1,74 @@
+v 3
+d xhelp -- Tools to create and display translated help files
+d 
+d -xhelp- is an extension to the official -help- command, which provides 
+d tools to edit original help files into translated version and display 
+d them (or the original one when translated version not found).
+d 
+d KW: workflow
+d KW: help system
+d 
+d Requires: Stata version 9
+d
+d Version: 0.1
+d Distribution-Date: 2022-06-20
+d 
+d Author:  Yongyi Zeng (Xiamen University, PRC)
+d Support: zzyy@xmu.edu.cn
+d 
+
+* comments, not be displayed.
+* f lines name the files that comprise your package.
+* F can force a default-not-installed file to be install to sysdir.
+* help net
+
+f j_bayesmh_adaptsim_zh.sthlp
+f j_bayesmh_adapttol_zh.sthlp
+f j_bayesmh_highcorr_zh.sthlp
+f j_bayesmh_marglmiss_zh.sthlp
+f j_bayesmh_nchains_avg_zh.sthlp
+f j_bayes_defaultpriors_zh.sthlp
+f j_bayes_displayre15_zh.sthlp
+f j_bayes_displayre_zh.sthlp
+f j_bayes_grubin_conv_zh.sthlp
+f j_bayes_grubin_rc_zh.sthlp
+f j_bayes_grubin_ru_zh.sthlp
+f j_bayes_initrandom_zh.sthlp
+f j_bayes_nchainsinit_zh.sthlp
+f j_bayes_remargl_zh.sthlp
+f j_bayes_toomanyre_zh.sthlp
+f j_chibar_zh.sthlp
+f j_dsgenl_steady_zh.sthlp
+f j_exchangeable_zh.sthlp
+f j_geenonpd_zh.sthlp
+f j_glmadmiss_zh.sthlp
+f j_glmic_zh.sthlp
+f j_lasso_inferential_zh.sthlp
+f j_melaplace_zh.sthlp
+f j_menl_linearll_zh.sthlp
+f j_mfxnonlinear_zh.sthlp
+f j_mfxscale_zh.sthlp
+f j_mfxunsuitse_zh.sthlp
+f j_mfxunsuit_zh.sthlp
+f j_miemnc_zh.sthlp
+f j_mixedlr_zh.sthlp
+f j_mixed_ddf_zh.sthlp
+f j_multipredictwarn_zh.sthlp
+f j_recursive_zh.sthlp
+f j_robustsingular_zh.sthlp
+f j_vuong_zh.sthlp
+f kappa_zh.sthlp
+f kap_dlg_zh.sthlp
+f kdensity_zh.sthlp
+f keyboard_zh.sthlp
+f keyfiles_zh.sthlp
+f ksmirnov_zh.sthlp
+f ksm_zh.sthlp
+f kwallis_zh.sthlp
+f labelbook_problems_zh.sthlp
+f labelbook_zh.sthlp
+f labelstyle_zh.sthlp
+f label_dlg_zh.sthlp
+f label_language_zh.sthlp
+f label_zh.sthlp
+f ladder_zh.sthlp

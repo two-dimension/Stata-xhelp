@@ -1,0 +1,74 @@
+v 3
+d xhelp -- Tools to create and display translated help files
+d 
+d -xhelp- is an extension to the official -help- command, which provides 
+d tools to edit original help files into translated version and display 
+d them (or the original one when translated version not found).
+d 
+d KW: workflow
+d KW: help system
+d 
+d Requires: Stata version 9
+d
+d Version: 0.1
+d Distribution-Date: 2022-06-20
+d 
+d Author:  Yongyi Zeng (Xiamen University, PRC)
+d Support: zzyy@xmu.edu.cn
+d 
+
+* comments, not be displayed.
+* f lines name the files that comprise your package.
+* F can force a default-not-installed file to be install to sysdir.
+* help net
+
+f xhelp.ado
+f 2_zh.sthlp
+f 663_zh.sthlp
+f 677_zh.sthlp
+f abbreviations_zh.sthlp
+f about_zh.sthlp
+f acronym_zh.sthlp
+f addedlinestyle_zh.sthlp
+f added_line_options_zh.sthlp
+f added_text_options_zh.sthlp
+f addplot_option_zh.sthlp
+f adjust_zh.sthlp
+f adofile_zh.sthlp
+f adoupdate_zh.sthlp
+f advanced_options_zh.sthlp
+f alignmentstyle_zh.sthlp
+f alpha_zh.sthlp
+f ameans_zh.sthlp
+f anglestyle_zh.sthlp
+f anovadef_zh.sthlp
+f anova_10_zh.sthlp
+f anova_example_zh.sthlp
+f anova_postestimation_10_zh.sthlp
+f anova_postestimation_zh.sthlp
+f anova_terms_zh.sthlp
+f anova_zh.sthlp
+f aorder_zh.sthlp
+f append_zh.sthlp
+f arch_postestimation_zh.sthlp
+f arch_zh.sthlp
+f areastyle_zh.sthlp
+f area_options_zh.sthlp
+f areg_postestimation_zh.sthlp
+f areg_zh.sthlp
+f arfima_postestimation_zh.sthlp
+f arfima_zh.sthlp
+f args_zh.sthlp
+f arima_postestimation_zh.sthlp
+f arima_zh.sthlp
+f asclogit_postestimation_zh.sthlp
+f asclogit_zh.sthlp
+f asmixlogit_postestimation_zh.sthlp
+f asmixlogit_zh.sthlp
+f asmprobit_postestimation_zh.sthlp
+f asmprobit_zh.sthlp
+f aspect_option_zh.sthlp
+f asroprobit_postestimation_zh.sthlp
+f asroprobit_zh.sthlp
+f assertnested_zh.sthlp
+f assert_zh.sthlp

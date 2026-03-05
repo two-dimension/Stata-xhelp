@@ -1,0 +1,74 @@
+v 3
+d xhelp -- Tools to create and display translated help files
+d 
+d -xhelp- is an extension to the official -help- command, which provides 
+d tools to edit original help files into translated version and display 
+d them (or the original one when translated version not found).
+d 
+d KW: workflow
+d KW: help system
+d 
+d Requires: Stata version 9
+d
+d Version: 0.1
+d Distribution-Date: 2022-06-20
+d 
+d Author:  Yongyi Zeng (Xiamen University, PRC)
+d Support: zzyy@xmu.edu.cn
+d 
+
+* comments, not be displayed.
+* f lines name the files that comprise your package.
+* F can force a default-not-installed file to be install to sysdir.
+* help net
+
+f st_is_zh.sthlp
+f st_zh.sthlp
+f subscripting_zh.sthlp
+f suest_zh.sthlp
+f summarize_zh.sthlp
+f sum_zh.sthlp
+f sunflowerstyle_zh.sthlp
+f sunflower_zh.sthlp
+f sureg_postestimation_zh.sthlp
+f sureg_zh.sthlp
+f survey_zh.sthlp
+f survival_analysis_zh.sthlp
+f survival_zh.sthlp
+f svar_postestimation_zh.sthlp
+f svar_zh.sthlp
+f svg_options_zh.sthlp
+f svy8_zh.sthlp
+f svycal_zh.sthlp
+f svydescribe_zh.sthlp
+f svygen_zh.sthlp
+f svymarkout_zh.sthlp
+f svymlog_zh.sthlp
+f svyopts_zh.sthlp
+f svyset_zh.sthlp
+f svytest_zh.sthlp
+f svyweights_zh.sthlp
+f svy_biprobit_dlg_zh.sthlp
+f svy_bootstrap_zh.sthlp
+f svy_brr_zh.sthlp
+f svy_estat_zh.sthlp
+f svy_estimation_zh.sthlp
+f svy_glossary_zh.sthlp
+f svy_jackknife_zh.sthlp
+f svy_parsing_zh.sthlp
+f svy_postestimation_zh.sthlp
+f svy_sdr_zh.sthlp
+f svy_tabulate_oneway_zh.sthlp
+f svy_tabulate_twoway_zh.sthlp
+f svy_tabulate_zh.sthlp
+f svy_zh.sthlp
+f swcox_zh.sthlp
+f swilk_zh.sthlp
+f symbolstyle_zh.sthlp
+f symmetry_zh.sthlp
+f syntax_zh.sthlp
+f sysdescribe_zh.sthlp
+f sysdir_zh.sthlp
+f sysuse_zh.sthlp
+f tabdisp_zh.sthlp
+f table_zh.sthlp

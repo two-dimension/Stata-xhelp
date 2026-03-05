@@ -1,0 +1,74 @@
+v 3
+d xhelp -- Tools to create and display translated help files
+d 
+d -xhelp- is an extension to the official -help- command, which provides 
+d tools to edit original help files into translated version and display 
+d them (or the original one when translated version not found).
+d 
+d KW: workflow
+d KW: help system
+d 
+d Requires: Stata version 9
+d
+d Version: 0.1
+d Distribution-Date: 2022-06-20
+d 
+d Author:  Yongyi Zeng (Xiamen University, PRC)
+d Support: zzyy@xmu.edu.cn
+d 
+
+* comments, not be displayed.
+* f lines name the files that comprise your package.
+* F can force a default-not-installed file to be install to sysdir.
+* help net
+
+f tabodds_zh.sthlp
+f tabstat_zh.sthlp
+f tabulate_dlg_zh.sthlp
+f tabulate_oneway_zh.sthlp
+f tabulate_summarize_zh.sthlp
+f tabulate_twoway_zh.sthlp
+f tabulate_zh.sthlp
+f tebalance_box_zh.sthlp
+f tebalance_density_zh.sthlp
+f tebalance_overid_zh.sthlp
+f tebalance_summarize_zh.sthlp
+f tebalance_zh.sthlp
+f teffects_aipw_zh.sthlp
+f teffects_intro_zh.sthlp
+f teffects_ipwra_zh.sthlp
+f teffects_ipw_zh.sthlp
+f teffects_multivalued_zh.sthlp
+f teffects_nnmatch_zh.sthlp
+f teffects_overlap_zh.sthlp
+f teffects_postestimation_zh.sthlp
+f teffects_psmatch_zh.sthlp
+f teffects_ra_zh.sthlp
+f teffects_zh.sthlp
+f testnl_example_zh.sthlp
+f testnl_zh.sthlp
+f teststd_zh.sthlp
+f test_example_zh.sthlp
+f test_zh.sthlp
+f tetrachoric_zh.sthlp
+f textboxstyle_zh.sthlp
+f textbox_options_zh.sthlp
+f textsizestyle_zh.sthlp
+f textstyle_zh.sthlp
+f te_glossary_zh.sthlp
+f threshold_postestimation_zh.sthlp
+f threshold_zh.sthlp
+f ticksetstyle_zh.sthlp
+f tickstyle_zh.sthlp
+f tif_options_zh.sthlp
+f timer_zh.sthlp
+f time_series_functions_zh.sthlp
+f time_zh.sthlp
+f title_options_zh.sthlp
+f tnbreg_postestimation_zh.sthlp
+f tnbreg_zh.sthlp
+f tobit_14_zh.sthlp
+f tobit_postestimation_zh.sthlp
+f tobit_zh.sthlp
+f tokenize_zh.sthlp
+f total_postestimation_zh.sthlp

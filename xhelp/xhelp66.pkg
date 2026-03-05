@@ -1,0 +1,74 @@
+v 3
+d xhelp -- Tools to create and display translated help files
+d 
+d -xhelp- is an extension to the official -help- command, which provides 
+d tools to edit original help files into translated version and display 
+d them (or the original one when translated version not found).
+d 
+d KW: workflow
+d KW: help system
+d 
+d Requires: Stata version 9
+d
+d Version: 0.1
+d Distribution-Date: 2022-06-20
+d 
+d Author:  Yongyi Zeng (Xiamen University, PRC)
+d Support: zzyy@xmu.edu.cn
+d 
+
+* comments, not be displayed.
+* f lines name the files that comprise your package.
+* F can force a default-not-installed file to be install to sysdir.
+* help net
+
+f f_invnbinomial_zh.ihlp
+f f_invnchi2tail_zh.ihlp
+f f_invnchi2_zh.ihlp
+f f_invnftail_zh.ihlp
+f f_invnf_zh.ihlp
+f f_invnibeta_zh.ihlp
+f f_invnormal_zh.ihlp
+f f_invnttail_zh.ihlp
+f f_invnt_zh.ihlp
+f f_invpoissontail_zh.ihlp
+f f_invpoisson_zh.ihlp
+f f_invsym_zh.ihlp
+f f_invttail_zh.ihlp
+f f_invtukeyprob_zh.ihlp
+f f_invt_zh.ihlp
+f f_invweibullphtail_zh.ihlp
+f f_invweibullph_zh.ihlp
+f f_invweibulltail_zh.ihlp
+f f_invweibull_zh.ihlp
+f f_inv_zh.ihlp
+f f_irecode_zh.ihlp
+f f_issymmetric_zh.ihlp
+f f_i_zh.ihlp
+f f_j_zh.ihlp
+f f_laplaceden_zh.ihlp
+f f_laplacetail_zh.ihlp
+f f_laplace_zh.ihlp
+f f_ln1m_zh.ihlp
+f f_ln1p_zh.ihlp
+f f_lncauchyden_zh.ihlp
+f f_lndirichletden_zh.ihlp
+f f_lnfactorial_zh.ihlp
+f f_lngamma_zh.ihlp
+f f_lngeometricp_zh.ihlp
+f f_lnigammaden_zh.ihlp
+f f_lnigaussianden_zh.ihlp
+f f_lniwishartden_zh.ihlp
+f f_lnlaplaceden_zh.ihlp
+f f_lnmvnormalden_zh.ihlp
+f f_lnnormalden_zh.ihlp
+f f_lnnormal_zh.ihlp
+f f_lnparetoden_zh.ihlp
+f f_lnwishartden_zh.ihlp
+f f_ln_zh.ihlp
+f f_log10_zh.ihlp
+f f_log1m_zh.ihlp
+f f_log1p_zh.ihlp
+f f_logisticden_zh.ihlp
+f f_logistictail_zh.ihlp
+f f_logistic_zh.ihlp

@@ -1,0 +1,74 @@
+v 3
+d xhelp -- Tools to create and display translated help files
+d 
+d -xhelp- is an extension to the official -help- command, which provides 
+d tools to edit original help files into translated version and display 
+d them (or the original one when translated version not found).
+d 
+d KW: workflow
+d KW: help system
+d 
+d Requires: Stata version 9
+d
+d Version: 0.1
+d Distribution-Date: 2022-06-20
+d 
+d Author:  Yongyi Zeng (Xiamen University, PRC)
+d Support: zzyy@xmu.edu.cn
+d 
+
+* comments, not be displayed.
+* f lines name the files that comprise your package.
+* F can force a default-not-installed file to be install to sysdir.
+* help net
+
+f q_cm_zh.sthlp
+f q_cross_zh.sthlp
+f q_data_zh.sthlp
+f q_dsge_zh.sthlp
+f q_erm_zh.sthlp
+f q_fmm_zh.sthlp
+f q_graphics_zh.sthlp
+f q_irt_zh.sthlp
+f q_lasso_zh.sthlp
+f q_meta_zh.sthlp
+f q_me_zh.sthlp
+f q_mi_zh.sthlp
+f q_multivariate_zh.sthlp
+f q_power_zh.sthlp
+f q_prog_zh.sthlp
+f q_rpt_zh.sthlp
+f q_sem_zh.sthlp
+f q_sp_zh.sthlp
+f q_survey_zh.sthlp
+f q_survival_zh.sthlp
+f q_teffects_zh.sthlp
+f q_time_zh.sthlp
+f q_user_zh.sthlp
+f random_number_functions_zh.sthlp
+f range_zh.sthlp
+f ranksum_zh.sthlp
+f ratio_postestimation_zh.sthlp
+f ratio_zh.sthlp
+f rcap_options_zh.sthlp
+f rcof_zh.sthlp
+f recast_zh.sthlp
+f recode_rules_zh.sthlp
+f recode_zh.sthlp
+f reg3_postestimation_zh.sthlp
+f reg3_zh.sthlp
+f region_options_zh.sthlp
+f regress_postestimationts_zh.sthlp
+f regress_postestimation_plots_zh.sthlp
+f regress_postestimation_zh.sthlp
+f regress_zh.sthlp
+f remap_zh.sthlp
+f rename_group_zh.sthlp
+f rename_zh.sthlp
+f renpfix_zh.sthlp
+f repeated_options_zh.sthlp
+f repeat_zh.sthlp
+f reporting_zh.sthlp
+f reshape_example_zh.sthlp
+f reshape_zh.sthlp
+f resources_zh.sthlp

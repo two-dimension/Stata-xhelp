@@ -1,0 +1,74 @@
+v 3
+d xhelp -- Tools to create and display translated help files
+d 
+d -xhelp- is an extension to the official -help- command, which provides 
+d tools to edit original help files into translated version and display 
+d them (or the original one when translated version not found).
+d 
+d KW: workflow
+d KW: help system
+d 
+d Requires: Stata version 9
+d
+d Version: 0.1
+d Distribution-Date: 2022-06-20
+d 
+d Author:  Yongyi Zeng (Xiamen University, PRC)
+d Support: zzyy@xmu.edu.cn
+d 
+
+* comments, not be displayed.
+* f lines name the files that comprise your package.
+* F can force a default-not-installed file to be install to sysdir.
+* help net
+
+f f_ustrfix_zh.ihlp
+f f_ustrfrom_zh.ihlp
+f f_ustrinvalidcnt_zh.ihlp
+f f_ustrleft_zh.ihlp
+f f_ustrlen_zh.ihlp
+f f_ustrlower_zh.ihlp
+f f_ustrltrim_zh.ihlp
+f f_ustrnormalize_zh.ihlp
+f f_ustrpos_zh.ihlp
+f f_ustrregexm_zh.ihlp
+f f_ustrreverse_zh.ihlp
+f f_ustrright_zh.ihlp
+f f_ustrrpos_zh.ihlp
+f f_ustrrtrim_zh.ihlp
+f f_ustrsortkeyex_zh.ihlp
+f f_ustrsortkey_zh.ihlp
+f f_ustrtitle_zh.ihlp
+f f_ustrtohex_zh.ihlp
+f f_ustrtoname_zh.ihlp
+f f_ustrto_zh.ihlp
+f f_ustrtrim_zh.ihlp
+f f_ustrunescape_zh.ihlp
+f f_ustrupper_zh.ihlp
+f f_ustrwordcount_zh.ihlp
+f f_ustrword_zh.ihlp
+f f_usubinstr_zh.ihlp
+f f_usubstr_zh.ihlp
+f f_vecdiag_zh.ihlp
+f f_vec_zh.ihlp
+f f_weekly_zh.ihlp
+f f_week_zh.ihlp
+f f_weibullden_zh.ihlp
+f f_weibullphden_zh.ihlp
+f f_weibullphtail_zh.ihlp
+f f_weibullph_zh.ihlp
+f f_weibulltail_zh.ihlp
+f f_weibull_zh.ihlp
+f f_wofd_zh.ihlp
+f f_wordbreaklocale_zh.ihlp
+f f_wordcount_zh.ihlp
+f f_word_zh.ihlp
+f f_yearly_zh.ihlp
+f f_year_zh.ihlp
+f f_yh_zh.ihlp
+f f_ym_zh.ihlp
+f f_yofd_zh.ihlp
+f f_yq_zh.ihlp
+f f_yw_zh.ihlp
+f f__caller_zh.ihlp
+f glossary_frames_zh.ihlp

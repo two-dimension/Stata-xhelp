@@ -1,0 +1,74 @@
+v 3
+d xhelp -- Tools to create and display translated help files
+d 
+d -xhelp- is an extension to the official -help- command, which provides 
+d tools to edit original help files into translated version and display 
+d them (or the original one when translated version not found).
+d 
+d KW: workflow
+d KW: help system
+d 
+d Requires: Stata version 9
+d
+d Version: 0.1
+d Distribution-Date: 2022-06-20
+d 
+d Author:  Yongyi Zeng (Xiamen University, PRC)
+d Support: zzyy@xmu.edu.cn
+d 
+
+* comments, not be displayed.
+* f lines name the files that comprise your package.
+* F can force a default-not-installed file to be install to sysdir.
+* help net
+
+f sqrtlasso_opt_nonlinear_long_zh.ihlp
+f startval_table_zh.ihlp
+f stop_long_zh.ihlp
+f stop_short_zh.ihlp
+f svy_dots_zh.ihlp
+f svy_notes_common_zh.ihlp
+f svy_tab_optable_zh.ihlp
+f syntax_cmmargins_zh.ihlp
+f syntax_irt_predict_ctype_zh.ihlp
+f syntax_irt_predict_int_zh.ihlp
+f syntax_irt_predict_stats_zh.ihlp
+f syntax_margins1_zh.ihlp
+f syntax_margins_zh.ihlp
+f syntax_me_margins_stats_zh.ihlp
+f syntax_me_predict_ctype_zh.ihlp
+f syntax_me_predict_desc_zh.ihlp
+f syntax_me_predict_intopts_zh.ihlp
+f syntax_me_predict_reopts_zh.ihlp
+f syntax_me_predict_stats_zh.ihlp
+f syntax_me_predict_zh.ihlp
+f technique_long_zh.ihlp
+f technique_short_zh.ihlp
+f tolerance_long_zh.ihlp
+f tolerance_short_zh.ihlp
+f traceleveldefault_zh.ihlp
+f unstarred_zh.ihlp
+f vcetype_zh.ihlp
+f vce_all_zh.ihlp
+f vce_asymptall_zh.ihlp
+f vce_asymptbj_zh.ihlp
+f vce_asymptrbj_zh.ihlp
+f vce_asymptrc_zh.ihlp
+f vce_bj_zh.ihlp
+f vce_cbj_zh.ihlp
+f vce_mi_zh.ihlp
+f vce_oo_zh.ihlp
+f vce_rbj_zh.ihlp
+f vce_rcbj_zh.ihlp
+f vce_rc_zh.ihlp
+f vce_roo_zh.ihlp
+f weight_boot_zh.ihlp
+f weight_svy_zh.ihlp
+f whereab_zh.ihlp
+f xtdpd_estat_zh.ihlp
+f xtdpd_margins_zh.ihlp
+f xtdpd_postspecial2b_zh.ihlp
+f xtdpd_postspecial2c_zh.ihlp
+f xtdpd_predict_zh.ihlp
+f xt_vce_all_zh.ihlp
+f xt_vce_asymptall_zh.ihlp

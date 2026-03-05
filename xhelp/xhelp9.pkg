@@ -1,0 +1,74 @@
+v 3
+d xhelp -- Tools to create and display translated help files
+d 
+d -xhelp- is an extension to the official -help- command, which provides 
+d tools to edit original help files into translated version and display 
+d them (or the original one when translated version not found).
+d 
+d KW: workflow
+d KW: help system
+d 
+d Requires: Stata version 9
+d
+d Version: 0.1
+d Distribution-Date: 2022-06-20
+d 
+d Author:  Yongyi Zeng (Xiamen University, PRC)
+d Support: zzyy@xmu.edu.cn
+d 
+
+* comments, not be displayed.
+* f lines name the files that comprise your package.
+* F can force a default-not-installed file to be install to sysdir.
+* help net
+
+f copyright_jgoodies_forms_zh.sthlp
+f copyright_jsoup_zh.sthlp
+f copyright_lapack_zh.sthlp
+f copyright_libharu_zh.sthlp
+f copyright_libpng_zh.sthlp
+f copyright_mersenne_twister_zh.sthlp
+f copyright_mig_layout_zh.sthlp
+f copyright_readstat_zh.sthlp
+f copyright_scintilla_zh.sthlp
+f copyright_slf4j_zh.sthlp
+f copyright_ttf2pt1_zh.sthlp
+f copyright_zh.sthlp
+f copyright_zlib_zh.sthlp
+f copysource_zh.sthlp
+f copy_zh.sthlp
+f corc_zh.sthlp
+f corr2data_zh.sthlp
+f correlate_zh.sthlp
+f corrgram_zh.sthlp
+f count_zh.sthlp
+f coxbase_zh.sthlp
+f cox_zh.sthlp
+f cpoisson_postestimation_zh.sthlp
+f cpoisson_zh.sthlp
+f creturn_zh.sthlp
+f cross_zh.sthlp
+f cscript_log_zh.sthlp
+f cscript_zh.sthlp
+f cs_zh.sthlp
+f ctset_zh.sthlp
+f cttost_zh.sthlp
+f ct_zh.sthlp
+f cumsp_zh.sthlp
+f cumul_zh.sthlp
+f custom_tick_labels_zh.sthlp
+f cusum_zh.sthlp
+f cvplot_zh.sthlp
+f dataex_zh.sthlp
+f datasignature_zh.sthlp
+f data_management_zh.sthlp
+f data_types_zh.sthlp
+f datelist_zh.sthlp
+f datetime_business_calendars_creation_zh.sthlp
+f datetime_business_calendars_zh.sthlp
+f datetime_display_formats_zh.sthlp
+f datetime_functions_zh.sthlp
+f datetime_translation_zh.sthlp
+f datetime_zh.sthlp
+f dbeta_zh.sthlp
+f db_zh.sthlp

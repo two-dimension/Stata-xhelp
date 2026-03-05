@@ -1,0 +1,74 @@
+v 3
+d xhelp -- Tools to create and display translated help files
+d 
+d -xhelp- is an extension to the official -help- command, which provides 
+d tools to edit original help files into translated version and display 
+d them (or the original one when translated version not found).
+d 
+d KW: workflow
+d KW: help system
+d 
+d Requires: Stata version 9
+d
+d Version: 0.1
+d Distribution-Date: 2022-06-20
+d 
+d Author:  Yongyi Zeng (Xiamen University, PRC)
+d Support: zzyy@xmu.edu.cn
+d 
+
+* comments, not be displayed.
+* f lines name the files that comprise your package.
+* F can force a default-not-installed file to be install to sysdir.
+* help net
+
+f twoway_lowess_zh.sthlp
+f twoway_lpolyci_zh.sthlp
+f twoway_lpoly_zh.sthlp
+f twoway_mata_zh.sthlp
+f twoway_mband_zh.sthlp
+f twoway_mspline_zh.sthlp
+f twoway_options_zh.sthlp
+f twoway_pcarrowi_zh.sthlp
+f twoway_pcarrow_zh.sthlp
+f twoway_pccapsym_zh.sthlp
+f twoway_pci_zh.sthlp
+f twoway_pcscatter_zh.sthlp
+f twoway_pcspike_zh.sthlp
+f twoway_qfitci_zh.sthlp
+f twoway_qfit_zh.sthlp
+f twoway_rarea_zh.sthlp
+f twoway_rbar_zh.sthlp
+f twoway_rcapsym_zh.sthlp
+f twoway_rcap_zh.sthlp
+f twoway_rconnected_zh.sthlp
+f twoway_rline_zh.sthlp
+f twoway_rscatter_zh.sthlp
+f twoway_rspike_zh.sthlp
+f twoway_scatteri_zh.sthlp
+f twoway_spike_zh.sthlp
+f twoway_sunflower_zh.sthlp
+f twoway__function_gen_zh.sthlp
+f twoway__histogram_gen_zh.sthlp
+f twoway__kdensity_gen_zh.sthlp
+f type_zh.sthlp
+f ucm_postestimation_zh.sthlp
+f ucm_zh.sthlp
+f unabbrev_zh.sthlp
+f unabcmd_zh.sthlp
+f unab_zh.sthlp
+f unbalanced_designs_zh.sthlp
+f undocumented_zh.sthlp
+f unicode_advice_zh.sthlp
+f unicode_collator_zh.sthlp
+f unicode_convertfile_zh.sthlp
+f unicode_encoding_zh.sthlp
+f unicode_locale_zh.sthlp
+f unicode_translate_zh.sthlp
+f unicode_zh.sthlp
+f unixfonts_zh.sthlp
+f update_zh.sthlp
+f usersite_zh.sthlp
+f use_zh.sthlp
+f using_zh.sthlp
+f u_glossary_zh.sthlp

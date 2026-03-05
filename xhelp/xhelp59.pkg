@@ -1,0 +1,74 @@
+v 3
+d xhelp -- Tools to create and display translated help files
+d 
+d -xhelp- is an extension to the official -help- command, which provides 
+d tools to edit original help files into translated version and display 
+d them (or the original one when translated version not found).
+d 
+d KW: workflow
+d KW: help system
+d 
+d Requires: Stata version 9
+d
+d Version: 0.1
+d Distribution-Date: 2022-06-20
+d 
+d Author:  Yongyi Zeng (Xiamen University, PRC)
+d Support: zzyy@xmu.edu.cn
+d 
+
+* comments, not be displayed.
+* f lines name the files that comprise your package.
+* F can force a default-not-installed file to be install to sysdir.
+* help net
+
+f xtdpd_postestimation_zh.sthlp
+f xtdpd_zh.sthlp
+f xtfrontier_postestimation_zh.sthlp
+f xtfrontier_zh.sthlp
+f xtgee_postestimation_zh.sthlp
+f xtgee_zh.sthlp
+f xtgls_postestimation_zh.sthlp
+f xtgls_zh.sthlp
+f xthausman_zh.sthlp
+f xtheckman_postestimation_zh.sthlp
+f xtheckman_zh.sthlp
+f xthtaylor_postestimation_zh.sthlp
+f xthtaylor_zh.sthlp
+f xtintreg_postestimation_zh.sthlp
+f xtintreg_zh.sthlp
+f xtivreg_postestimation_zh.sthlp
+f xtivreg_zh.sthlp
+f xtline_zh.sthlp
+f xtlogit_postestimation_zh.sthlp
+f xtlogit_zh.sthlp
+f xtmelogit_postestimation_zh.sthlp
+f xtmelogit_zh.sthlp
+f xtmepoisson_postestimation_zh.sthlp
+f xtmepoisson_zh.sthlp
+f xtmixed_postestimation_zh.sthlp
+f xtmixed_zh.sthlp
+f xtnbreg_postestimation_zh.sthlp
+f xtnbreg_zh.sthlp
+f xtologit_postestimation_zh.sthlp
+f xtologit_zh.sthlp
+f xtoprobit_postestimation_zh.sthlp
+f xtoprobit_zh.sthlp
+f xtpcse_postestimation_zh.sthlp
+f xtpcse_zh.sthlp
+f xtpoisson_postestimation_zh.sthlp
+f xtpoisson_zh.sthlp
+f xtprobit_postestimation_zh.sthlp
+f xtprobit_zh.sthlp
+f xtrchh_zh.sthlp
+f xtrc_postestimation_zh.sthlp
+f xtrc_zh.sthlp
+f xtregar_postestimation_zh.sthlp
+f xtregar_zh.sthlp
+f xtreg_postestimation_zh.sthlp
+f xtreg_zh.sthlp
+f xtset_zh.sthlp
+f xtstreg_postestimation_zh.sthlp
+f xtstreg_zh.sthlp
+f xtsum_zh.sthlp
+f xttab_zh.sthlp

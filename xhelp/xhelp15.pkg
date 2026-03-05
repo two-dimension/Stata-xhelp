@@ -1,0 +1,74 @@
+v 3
+d xhelp -- Tools to create and display translated help files
+d 
+d -xhelp- is an extension to the official -help- command, which provides 
+d tools to edit original help files into translated version and display 
+d them (or the original one when translated version not found).
+d 
+d KW: workflow
+d KW: help system
+d 
+d Requires: Stata version 9
+d
+d Version: 0.1
+d Distribution-Date: 2022-06-20
+d 
+d Author:  Yongyi Zeng (Xiamen University, PRC)
+d Support: zzyy@xmu.edu.cn
+d 
+
+* comments, not be displayed.
+* f lines name the files that comprise your package.
+* F can force a default-not-installed file to be install to sysdir.
+* help net
+
+f foreach_zh.sthlp
+f forecast_adjust_zh.sthlp
+f forecast_clear_zh.sthlp
+f forecast_coefvector_zh.sthlp
+f forecast_create_zh.sthlp
+f forecast_describe_zh.sthlp
+f forecast_drop_zh.sthlp
+f forecast_estimates_zh.sthlp
+f forecast_exogenous_zh.sthlp
+f forecast_identity_zh.sthlp
+f forecast_list_zh.sthlp
+f forecast_query_zh.sthlp
+f forecast_solve_zh.sthlp
+f forecast_zh.sthlp
+f format_zh.sthlp
+f forvalues_zh.sthlp
+f for_zh.sthlp
+f fp_postestimation_zh.sthlp
+f fp_zh.sthlp
+f fracpoly_postestimation_zh.sthlp
+f fracpoly_zh.sthlp
+f fracreg_postestimation_zh.sthlp
+f fracreg_zh.sthlp
+f frames_dir_zh.sthlp
+f frames_intro_zh.sthlp
+f frames_reset_zh.sthlp
+f frames_zh.sthlp
+f frame_change_zh.sthlp
+f frame_copy_zh.sthlp
+f frame_create_zh.sthlp
+f frame_drop_zh.sthlp
+f frame_post_zh.sthlp
+f frame_prefix_zh.sthlp
+f frame_put_zh.sthlp
+f frame_pwf_zh.sthlp
+f frame_rename_zh.sthlp
+f frget_zh.sthlp
+f frlink_zh.sthlp
+f frontier_postestimation_zh.sthlp
+f frontier_zh.sthlp
+f fsl_zh.sthlp
+f functions_zh.sthlp
+f fvexpand_zh.sthlp
+f fvrevar_zh.sthlp
+f fvset_zh.sthlp
+f fvvarlist_zh.sthlp
+f f_abbrev_zh.sthlp
+f f_abs_zh.sthlp
+f f_acosh_zh.sthlp
+f f_acos_zh.sthlp

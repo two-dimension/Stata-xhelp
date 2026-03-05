@@ -1,0 +1,74 @@
+v 3
+d xhelp -- Tools to create and display translated help files
+d 
+d -xhelp- is an extension to the official -help- command, which provides 
+d tools to edit original help files into translated version and display 
+d them (or the original one when translated version not found).
+d 
+d KW: workflow
+d KW: help system
+d 
+d Requires: Stata version 9
+d
+d Version: 0.1
+d Distribution-Date: 2022-06-20
+d 
+d Author:  Yongyi Zeng (Xiamen University, PRC)
+d Support: zzyy@xmu.edu.cn
+d 
+
+* comments, not be displayed.
+* f lines name the files that comprise your package.
+* F can force a default-not-installed file to be install to sysdir.
+* help net
+
+f total_zh.sthlp
+f tpoisson_postestimation_zh.sthlp
+f tpoisson_zh.sthlp
+f trace_zh.sthlp
+f training_zh.sthlp
+f translate_zh.sthlp
+f treatment_effects_zh.sthlp
+f treatreg_zh.sthlp
+f trig_functions_zh.sthlp
+f truncreg_postestimation_zh.sthlp
+f truncreg_zh.sthlp
+f tsappend_zh.sthlp
+f tsfill_zh.sthlp
+f tsfilter_bk_zh.sthlp
+f tsfilter_bw_zh.sthlp
+f tsfilter_cf_zh.sthlp
+f tsfilter_hp_zh.sthlp
+f tsfilter_zh.sthlp
+f tsline_zh.sthlp
+f tsreport_zh.sthlp
+f tsrevar_zh.sthlp
+f tsset_zh.sthlp
+f tssmooth_dexponential_zh.sthlp
+f tssmooth_dlg_zh.sthlp
+f tssmooth_exponential_zh.sthlp
+f tssmooth_hwinters_zh.sthlp
+f tssmooth_ma_zh.sthlp
+f tssmooth_nl_zh.sthlp
+f tssmooth_shwinters_zh.sthlp
+f tssmooth_zh.sthlp
+f tsvarlist_example_zh.sthlp
+f tsvarlist_zh.sthlp
+f ts_glossary_zh.sthlp
+f ttest_zh.sthlp
+f tutorial_zh.sthlp
+f tvc_note_zh.sthlp
+f twoway_area_zh.sthlp
+f twoway_bar_zh.sthlp
+f twoway_connected_zh.sthlp
+f twoway_contourline_zh.sthlp
+f twoway_contour_zh.sthlp
+f twoway_dot_zh.sthlp
+f twoway_dropline_zh.sthlp
+f twoway_fpfitci_zh.sthlp
+f twoway_fpfit_zh.sthlp
+f twoway_function_zh.sthlp
+f twoway_histogram_zh.sthlp
+f twoway_kdensity_zh.sthlp
+f twoway_lfitci_zh.sthlp
+f twoway_lfit_zh.sthlp

@@ -1,0 +1,74 @@
+v 3
+d xhelp -- Tools to create and display translated help files
+d 
+d -xhelp- is an extension to the official -help- command, which provides 
+d tools to edit original help files into translated version and display 
+d them (or the original one when translated version not found).
+d 
+d KW: workflow
+d KW: help system
+d 
+d Requires: Stata version 9
+d
+d Version: 0.1
+d Distribution-Date: 2022-06-20
+d 
+d Author:  Yongyi Zeng (Xiamen University, PRC)
+d Support: zzyy@xmu.edu.cn
+d 
+
+* comments, not be displayed.
+* f lines name the files that comprise your package.
+* F can force a default-not-installed file to be install to sysdir.
+* help net
+
+f profilem_zh.sthlp
+f profiler_zh.sthlp
+f profileu_zh.sthlp
+f profilew_zh.sthlp
+f profile_zh.sthlp
+f programming_functions_zh.sthlp
+f program_properties_zh.sthlp
+f program_zh.sthlp
+f project_manager_zh.sthlp
+f projmanager_zh.sthlp
+f proportion_postestimation_zh.sthlp
+f proportion_zh.sthlp
+f prtest_zh.sthlp
+f pr_options_zh.sthlp
+f psdensity_zh.sthlp
+f pss_glossary_zh.sthlp
+f pss_gui_zh.sthlp
+f pstyle_zh.sthlp
+f ps_options_zh.sthlp
+f putdocx_appendix_zh.sthlp
+f putdocx_begin_zh.sthlp
+f putdocx_intro_zh.sthlp
+f putdocx_pagebreak_zh.sthlp
+f putdocx_paragraph_zh.sthlp
+f putdocx_table_zh.sthlp
+f putexcel_advanced_zh.sthlp
+f putexcel_zh.sthlp
+f putmata_zh.sthlp
+f putpdf_appendix_zh.sthlp
+f putpdf_begin_zh.sthlp
+f putpdf_intro_zh.sthlp
+f putpdf_pagebreak_zh.sthlp
+f putpdf_paragraph_zh.sthlp
+f putpdf_table_zh.sthlp
+f pwcompare_postestimation_zh.sthlp
+f pwcompare_zh.sthlp
+f pwmean_postestimation_zh.sthlp
+f pwmean_zh.sthlp
+f python_zh.sthlp
+f p_glossary_zh.sthlp
+f qby_zh.sthlp
+f qc_zh.sthlp
+f qreg_postestimation_zh.sthlp
+f qreg_zh.sthlp
+f quadchk_zh.sthlp
+f query_zh.sthlp
+f quietly_zh.sthlp
+f quotes_zh.sthlp
+f q_base_zh.sthlp
+f q_bayes_zh.sthlp

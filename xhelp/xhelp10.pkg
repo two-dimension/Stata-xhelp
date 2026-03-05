@@ -1,0 +1,74 @@
+v 3
+d xhelp -- Tools to create and display translated help files
+d 
+d -xhelp- is an extension to the official -help- command, which provides 
+d tools to edit original help files into translated version and display 
+d them (or the original one when translated version not found).
+d 
+d KW: workflow
+d KW: help system
+d 
+d Requires: Stata version 9
+d
+d Version: 0.1
+d Distribution-Date: 2022-06-20
+d 
+d Author:  Yongyi Zeng (Xiamen University, PRC)
+d Support: zzyy@xmu.edu.cn
+d 
+
+* comments, not be displayed.
+* f lines name the files that comprise your package.
+* F can force a default-not-installed file to be install to sysdir.
+* help net
+
+f deff_zh.sthlp
+f delimit_zh.sthlp
+f density_functions_zh.sthlp
+f describe_zh.sthlp
+f destring_zh.sthlp
+f dfactor_postestimation_zh.sthlp
+f dfactor_zh.sthlp
+f dfgls_zh.sthlp
+f dfuller_zh.sthlp
+f diagnostic_plots_zh.sthlp
+f dialog_programming_zh.sthlp
+f dialog_undocumented_zh.sthlp
+f diflogistic_zh.sthlp
+f difmh_zh.sthlp
+f dif_zh.sthlp
+f dirstats_zh.sthlp
+f dir_zh.sthlp
+f discard_zh.sthlp
+f discrim_estat_zh.sthlp
+f discrim_knn_postestimation_zh.sthlp
+f discrim_knn_zh.sthlp
+f discrim_lda_postestimation_zh.sthlp
+f discrim_lda_zh.sthlp
+f discrim_logistic_postestimation_zh.sthlp
+f discrim_logistic_zh.sthlp
+f discrim_qda_postestimation_zh.sthlp
+f discrim_qda_zh.sthlp
+f discrim_zh.sthlp
+f display_zh.sthlp
+f disp_res_zh.sthlp
+f di_g_zh.sthlp
+f dockable_zh.sthlp
+f dockingguides_zh.sthlp
+f docx2pdf_zh.sthlp
+f doedit_zh.sthlp
+f dotplot_zh.sthlp
+f doublebuffer_zh.sthlp
+f do_zh.sthlp
+f dprobit_postestimation_zh.sthlp
+f dprobit_zh.sthlp
+f drawnorm_zh.sthlp
+f drop_dlg_zh.sthlp
+f drop_zh.sthlp
+f dsgenl_postestimation_zh.sthlp
+f dsgenl_zh.sthlp
+f dsge_estat_covariance_zh.sthlp
+f dsge_estat_stable_zh.sthlp
+f dsge_estat_transition_zh.sthlp
+f dsge_glossary_zh.sthlp
+f dsge_intro_zh.sthlp

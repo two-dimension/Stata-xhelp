@@ -1,0 +1,74 @@
+v 3
+d xhelp -- Tools to create and display translated help files
+d 
+d -xhelp- is an extension to the official -help- command, which provides 
+d tools to edit original help files into translated version and display 
+d them (or the original one when translated version not found).
+d 
+d KW: workflow
+d KW: help system
+d 
+d Requires: Stata version 9
+d
+d Version: 0.1
+d Distribution-Date: 2022-06-20
+d 
+d Author:  Yongyi Zeng (Xiamen University, PRC)
+d Support: zzyy@xmu.edu.cn
+d 
+
+* comments, not be displayed.
+* f lines name the files that comprise your package.
+* F can force a default-not-installed file to be install to sysdir.
+* help net
+
+f mf_rowshape_zh.sthlp
+f mf_rows_zh.sthlp
+f mf_runiform_zh.sthlp
+f mf_runningsum_zh.sthlp
+f mf_schurd_zh.sthlp
+f mf_select_zh.sthlp
+f mf_setbreakintr_zh.sthlp
+f mf_sign_zh.sthlp
+f mf_sin_zh.sthlp
+f mf_sizeof_zh.sthlp
+f mf_solvelower_zh.sthlp
+f mf_solvenl_zh.sthlp
+f mf_solve_tol_zh.sthlp
+f mf_sort_zh.sthlp
+f mf_soundex_zh.sthlp
+f mf_spline3_zh.sthlp
+f mf_spmatbanded_zh.sthlp
+f mf_sqrt_zh.sthlp
+f mf_stataversion_zh.sthlp
+f mf_stata_zh.sthlp
+f mf_strdup_zh.sthlp
+f mf_strlen_zh.sthlp
+f mf_strmatch_zh.sthlp
+f mf_strofreal_zh.sthlp
+f mf_strpos_zh.sthlp
+f mf_strreverse_zh.sthlp
+f mf_strtoname_zh.sthlp
+f mf_strtoreal_zh.sthlp
+f mf_strtrim_zh.sthlp
+f mf_strupper_zh.sthlp
+f mf_st_addobs_zh.sthlp
+f mf_st_addvar_zh.sthlp
+f mf_st_data_zh.sthlp
+f mf_st_dir_zh.sthlp
+f mf_st_dropvar_zh.sthlp
+f mf_st_fopen_zh.sthlp
+f mf_st_frame_zh.sthlp
+f mf_st_freadsignature_zh.sthlp
+f mf_st_global_zh.sthlp
+f mf_st_isfmt_zh.sthlp
+f mf_st_isname_zh.sthlp
+f mf_st_lchar_zh.sthlp
+f mf_st_local_zh.sthlp
+f mf_st_macroexpand_zh.sthlp
+f mf_st_matrix_list_zh.sthlp
+f mf_st_matrix_zh.sthlp
+f mf_st_matrix__joinbyname_zh.sthlp
+f mf_st_ms_display_zh.sthlp
+f mf_st_ms_unab_zh.sthlp
+f mf_st_ms_utils_zh.sthlp

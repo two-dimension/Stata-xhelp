@@ -1,0 +1,74 @@
+v 3
+d xhelp -- Tools to create and display translated help files
+d 
+d -xhelp- is an extension to the official -help- command, which provides 
+d tools to edit original help files into translated version and display 
+d them (or the original one when translated version not found).
+d 
+d KW: workflow
+d KW: help system
+d 
+d Requires: Stata version 9
+d
+d Version: 0.1
+d Distribution-Date: 2022-06-20
+d 
+d Author:  Yongyi Zeng (Xiamen University, PRC)
+d Support: zzyy@xmu.edu.cn
+d 
+
+* comments, not be displayed.
+* f lines name the files that comprise your package.
+* F can force a default-not-installed file to be install to sysdir.
+* help net
+
+f scheme_foreground_def_zh.sthlp
+f scheme_graph_bar_zh.sthlp
+f scheme_graph_box_zh.sthlp
+f scheme_graph_combine_zh.sthlp
+f scheme_graph_dot_zh.sthlp
+f scheme_graph_matrix_zh.sthlp
+f scheme_graph_pie_zh.sthlp
+f scheme_graph_shared_zh.sthlp
+f scheme_graph_twoway_zh.sthlp
+f scheme_grids_zh.sthlp
+f scheme_histogram_plots_zh.sthlp
+f scheme_labels_zh.sthlp
+f scheme_legends_zh.sthlp
+f scheme_line_plots_zh.sthlp
+f scheme_notes_zh.sthlp
+f scheme_numbered_titles_zh.sthlp
+f scheme_option_zh.sthlp
+f scheme_other_zh.sthlp
+f scheme_pie_plot_zh.sthlp
+f scheme_plotregion_def_zh.sthlp
+f scheme_refline_plots_zh.sthlp
+f scheme_refmarker_plots_zh.sthlp
+f scheme_s1_zh.sthlp
+f scheme_s2_zh.sthlp
+f scheme_scatter_plots_zh.sthlp
+f scheme_shared_plots_zh.sthlp
+f scheme_sj_zh.sthlp
+f scheme_subtitles_zh.sthlp
+f scheme_sunflower_plots_zh.sthlp
+f scheme_textbox_common_zh.sthlp
+f scheme_titles_zh.sthlp
+f scmd_legttlring_zh.sthlp
+f scmd_ttlring_zh.sthlp
+f scmd_ttlspan_zh.sthlp
+f scobit_postestimation_zh.sthlp
+f scobit_zh.sthlp
+f scoreplot_zh.sthlp
+f score_zh.sthlp
+f screeplot_zh.sthlp
+f scrollbufsize_zh.sthlp
+f sdr_mse_zh.sthlp
+f sdr_options_zh.sthlp
+f sdtest_zh.sthlp
+f searchadvice_zh.sthlp
+f search_zh.sthlp
+f sempath_examples_zh.sthlp
+f sem_and_gsem_option_constraints_zh.sthlp
+f sem_and_gsem_option_covstructure_zh.sthlp
+f sem_and_gsem_option_from_zh.sthlp
+f sem_and_gsem_option_reliability_zh.sthlp

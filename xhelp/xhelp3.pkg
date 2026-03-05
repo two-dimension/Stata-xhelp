@@ -1,0 +1,74 @@
+v 3
+d xhelp -- Tools to create and display translated help files
+d 
+d -xhelp- is an extension to the official -help- command, which provides 
+d tools to edit original help files into translated version and display 
+d them (or the original one when translated version not found).
+d 
+d KW: workflow
+d KW: help system
+d 
+d Requires: Stata version 9
+d
+d Version: 0.1
+d Distribution-Date: 2022-06-20
+d 
+d Author:  Yongyi Zeng (Xiamen University, PRC)
+d Support: zzyy@xmu.edu.cn
+d 
+
+* comments, not be displayed.
+* f lines name the files that comprise your package.
+* F can force a default-not-installed file to be install to sysdir.
+* help net
+
+f bayes_meoprobit_zh.sthlp
+f bayes_mepoisson_zh.sthlp
+f bayes_meprobit_zh.sthlp
+f bayes_mestreg_zh.sthlp
+f bayes_metobit_zh.sthlp
+f bayes_mixed_zh.sthlp
+f bayes_mlogit_zh.sthlp
+f bayes_mprobit_zh.sthlp
+f bayes_mvreg_zh.sthlp
+f bayes_nbreg_zh.sthlp
+f bayes_ologit_zh.sthlp
+f bayes_oprobit_zh.sthlp
+f bayes_poisson_zh.sthlp
+f bayes_probit_zh.sthlp
+f bayes_regress_zh.sthlp
+f bayes_streg_zh.sthlp
+f bayes_tnbreg_zh.sthlp
+f bayes_tobit_zh.sthlp
+f bayes_tpoisson_zh.sthlp
+f bayes_truncreg_zh.sthlp
+f bayes_zh.sthlp
+f bayes_zinb_zh.sthlp
+f bayes_zioprobit_zh.sthlp
+f bayes_zip_zh.sthlp
+f bcal_zh.sthlp
+f betareg_postestimation_zh.sthlp
+f betareg_zh.sthlp
+f bic_note_zh.sthlp
+f binreg_postestimation_zh.sthlp
+f binreg_zh.sthlp
+f biplot_zh.sthlp
+f biprobit_dlg_zh.sthlp
+f biprobit_postestimation_zh.sthlp
+f biprobit_zh.sthlp
+f bitest_zh.sthlp
+f bitowt_zh.sthlp
+f blabel_option_zh.sthlp
+f blog_zh.sthlp
+f books_zh.sthlp
+f bootstrap_mse_zh.sthlp
+f bootstrap_options_zh.sthlp
+f bootstrap_postestimation_zh.sthlp
+f bootstrap_zh.sthlp
+f boot_zh.sthlp
+f boxcox_postestimation_zh.sthlp
+f boxcox_zh.sthlp
+f break_zh.sthlp
+f brier_zh.sthlp
+f brrstat_zh.sthlp
+f brr_mse_zh.sthlp
