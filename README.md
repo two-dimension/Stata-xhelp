@@ -53,7 +53,14 @@ sysdir set PLUS "DIRECTORY"
 
 ## 3️⃣ 安装 xhelp
 
-1. 使用 Stata 打开下载文件中的 **安装 do 文件**
+1. 使用 Stata 打开下载文件中的 **安装 do 文件**（文件名为 `install_xhelp.do`）。该文件的内容如下：
+
+   ```stata
+   forvalues i = 1/76{
+       net install xhelp`i', from("dictionary") replace  //dictionary 改为你下载后的 xhelp 文件夹的位置
+   }
+   ```
+   
 2. 修改 do 文件中的 `dictionary` 路径为本地 `xhelp` 文件夹的地址
 3. 运行该 do 文件完成安装
 
