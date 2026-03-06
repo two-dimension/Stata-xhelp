@@ -61,8 +61,8 @@ sysdir set PLUS "DIRECTORY"
  }
  ```
    
-2. 修改 do 文件中的 `dictionary` 路径为本地 `xhelp` 文件夹的地址
-3. 运行该 do 文件完成安装（即上面代码中 `from()` 内的路径）
+2. 修改 do 文件中的 `dictionary` 路径为本地 `xhelp` 文件夹的地址（即上面代码中 `from()` 内的路径）
+3. 运行该 do 文件完成安装
 
 说明：
 
